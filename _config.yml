@@ -4,7 +4,7 @@ bio:                'Minimal, one column jekyll theme.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       false
 words_per_minute:   200
-logo:               'assets/img/profile.png'
+logo:               'assets/img/profile.jpeg'
 background:         'assets/img/main_background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
