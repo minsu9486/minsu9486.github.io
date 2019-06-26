@@ -1,5 +1,5 @@
 # Site
-title:              Blue
+title:              Minsu Kang
 bio:                'Minimal, one column jekyll theme.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       false
@@ -8,7 +8,7 @@ logo:               'assets/img/profile.png'
 background:         'assets/img/main_background.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://minsu9486.github.io/Blue
+url:                https://minsu9486.github.io
 
 # Jekyll
 permalink:          /:title/
