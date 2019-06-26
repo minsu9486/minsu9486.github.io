@@ -47,7 +47,7 @@ more_content: | # this will include new lines to allow paragraphs
    - Gaming
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
