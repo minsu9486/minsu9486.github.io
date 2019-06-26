@@ -7,7 +7,10 @@
    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+    - Distinguished the real invasion attempts from false-positives (through IDS & IPS)
+    - Analyzed suspicious HTTP packets (using Wireshark) 
+    - Informed other subordinate units about detected invasion attempts
+    
 - layout: left
   company: Funigloo
   link: funigloo.com
@@ -17,7 +20,10 @@
    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+    - Implemented custom interlocking process between JAVA and C++ (using JNI)
+    - Implemented 3 languages (English, Thai, Taiwanese) supporting system
+    - Added LINE (SNS App) SDK
+    
 - layout: left
   company: Newfun
   job_title: Gameplay Programmer
@@ -26,3 +32,6 @@
    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+    - Implemented a jelly-like object using soft-body dynamics
+    - Implemented custom physics flow and system
+    - Implemented UV mapping and simple dynamic lights using OpenGL
