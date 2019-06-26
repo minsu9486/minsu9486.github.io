@@ -1,9 +1,21 @@
 - layout: left
-  name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+  name: DigiPen Institute of Technology
+  dates: 2019 - Present
+  qualification: BS Computer Science in Real-Time Interactive Simulation
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    DigiPen devised and began offering the world’s first bachelor’s degree program in video game development (BS in CS in RTIS) that would prepare students for the unique challenges of creating professional 3D game and simulation software.
+  description: | # this will include new lines to allow paragraphs
+    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+- layout: left
+  name: Keimyung University
+  dates: 2012 - 2015
+  qualification: BS Computer Science in Game and Mobile Contents
+  quote: >
+    Keimyung University originated from Keimyung Christian College, which was founded in 1954, by Reverend Edward Adams.
+    'For the Kingdom of Truth, Justice and Love'
   description: | # this will include new lines to allow paragraphs
     During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
