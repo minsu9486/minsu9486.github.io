@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Front"
-    url: /
   - title: "About"
     url: /about/
   - title: "Posts"
