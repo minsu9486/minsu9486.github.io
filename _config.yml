@@ -23,7 +23,7 @@ description              : "Programming should be conducted by a warm heart, not
 url                      : "https://minsu9486.github.io"
 baseurl                  : # "/baseurl"
 repository               : "minsu9486/minsu9486.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Blue Blog"
 # breadcrumbs            : false # true, false (default)
@@ -94,7 +94,9 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://www.instagram.com/blue_lust"
+    - "https://www.linkedin.com/in/minsu-k-635412101"
 
 # Analytics
 analytics:
@@ -107,23 +109,22 @@ analytics:
 # Site Author
 author:
   name             : "Minsu Kang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Ulsan, KR"
-  email            :
+  email            : "minsu9486@gmail.com"
+  # Brand Icons: fontawesome.com/v4.7.0/icons/#brand
+  # Icons Color: <site root>\_sass\minimal-mistakes\_utilities.scss 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:minsu9486@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/minsu-k-635412101/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
@@ -134,12 +135,15 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:minsu9486@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/minsu-k-635412101/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -288,8 +292,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: # true
       share: true
       related: true
