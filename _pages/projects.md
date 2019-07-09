@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-permalink: /projects
+permalink: /projects/
 excerpt: "Excerpt: This is Home page"
 ---
 

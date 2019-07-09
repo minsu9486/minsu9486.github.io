@@ -132,14 +132,11 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:minsu9486@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/minsu-k-635412101/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -153,7 +150,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/blue_lust/"
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:minsu9486@gmail.com
 
 # Reading Files
 include:

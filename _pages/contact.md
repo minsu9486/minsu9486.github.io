@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-permalink: /contact
+permalink: /contact/
 excerpt: "Excerpt: This is Home page"
 ---
 
