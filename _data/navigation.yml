@@ -2,10 +2,10 @@
 main:
    - title: "Home"
      url: /
-   - title: "Blog"
-     url: /blog/
    - title: "Projects"
      url: /projects/
+   - title: "Blog"
+     url: /blog/
    - title: "Résumé"
      url: /resume/
    - title: "Contact"
