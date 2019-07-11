@@ -26,7 +26,7 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "/resume"
     btn_label: "Know More"
-    btn_class: "btn--success"
+    btn_class: "btn--warning"
 ---
 
 {% include feature_row id="intro" type="left" %}
