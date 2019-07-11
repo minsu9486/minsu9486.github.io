@@ -37,6 +37,8 @@
   (warning, $warning-color),
   (danger, $danger-color),
   (info, $info-color),
+  
+  /* Social icons' */
   (facebook, $facebook-color),
   (twitter, $twitter-color),
   (linkedin, $linkedin-color);
@@ -65,6 +67,7 @@
   &--block {
     display: block;
     width: 100%;
+	font-size: $type-size-5;
 
     + .btn--block {
       margin-top: 0.25em;

@@ -1,7 +1,8 @@
 ---
 title: "Projects"
 permalink: /projects/
-excerpt: "Excerpt: This is Home page"
+layout: single
+classes: wide
 ---
 
 Project Contents
