@@ -5,4 +5,10 @@ layout: single
 classes: wide
 ---
 
-Project Contents
+Professional Projects:
+ - LINE: JoJo's Bizarre Adventure - Stardust Shooters
+
+Other Projects:
+ - Floating Fuzzy
+ - Adaptation
+ - Don't Stare
