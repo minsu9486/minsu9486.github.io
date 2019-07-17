@@ -1,6 +1,7 @@
 
 body, html {
   background-color: white;
+  padding-top: 1.5em;
 }
 
 .paper {
@@ -22,8 +23,12 @@ header p {
   float:left;
 }
 
+.initial-content {
+  display: none;
+}
+
 .profiles {
-  display:none;
+  display: none;
 }
 
 .content {

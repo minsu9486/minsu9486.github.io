@@ -9,7 +9,6 @@
 </head>
 <body>
   <div class="resume-wrapper">
-  <br/><br/>
     <article class="paper">
       {{#resume.basics}}
         <header>

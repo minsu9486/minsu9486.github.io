@@ -169,6 +169,9 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
+  - assets/resume/css
+  - assets/resume.json
+  - assets/resume.template
   - Capfile
   - CHANGELOG
   - config
