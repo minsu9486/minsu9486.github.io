@@ -37,13 +37,13 @@
                 {{#if website}}
                   <ul>
                     <li>Website</li>
-                    <li>{{website}}</li>
+                    <li><a href="https://{{website}}">{{website}}</a></li>
                   </ul>
                 {{/if}}
                 {{#if email}}
                   <ul>
                     <li>Email</li>
-                    <li>{{email}}</li>
+                    <li><a href = "mailto:{{email}}">{{email}}</a></li>
                   </ul>
                 {{/if}}
                 {{#if phone}}

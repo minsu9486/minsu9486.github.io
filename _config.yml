@@ -172,21 +172,20 @@ exclude:
   - assets/resume/css
   - assets/resume.json
   - assets/resume.template
+  - README.md
+  - Gruntfile.js
+  - gulpfile.js
+  - package.json
   - Capfile
   - CHANGELOG
   - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
   - log
   - node_modules
-  - package.json
   - Rakefile
-  - README
+
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn

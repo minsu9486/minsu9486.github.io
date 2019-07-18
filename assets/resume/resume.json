@@ -5,11 +5,11 @@
     "picture": "",
     "email": "minsu9486@gmail.com",
     "phone": "(000) 000-0000",
-    "website": "https://minsu9486.github.io",
+    "website": "minsu9486.github.io",
     "summary": "Summary",
     "location": {
       "address": "",
-      "postalCode": "",
+      "postalCode": "98052",
       "city": "Redmond",
       "countryCode": "US",
       "region": "Washington"
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "Linkedin",
-        "username": "Minsu Kang",
+        "username": "minsu-k-635412101",
         "url": "https://www.linkedin.com/in/minsu-k-635412101"
       },
       {
@@ -36,7 +36,7 @@
       "endDate": "11 2018",
       "summary": "Network monitoring and intrusion attempts analysis",
       "highlights": [
-        "- Distinguished actual intrusion attempts from false-positives through IDS & IPS",
+        "- Classified actual intrusion attempts from false-positives through IDS & IPS",
         "- Analyzed suspicious HTTP packets using Wireshark",
         "- Team Leader, Nov 2017 - May 2018 (7 months)"
       ]
@@ -51,7 +51,7 @@
       "highlights": [
         "- Implemented an interlocking process between JAVA and C++ using JNI",
         "- Implemented 3 languages supporting system with UTF-8 issue",
-        "- Added LINE (SNS App) SDK / Maintained the live service"
+        "- Added LINE (SNS App) SDK & Maintained the live service"
       ]
     }
   ],
@@ -108,7 +108,7 @@
     {
       "name": "Intensive sports",
       "keywords": [
-        "Squash ",
+        "Squash",
         "Indoor climbing"
       ]
     }

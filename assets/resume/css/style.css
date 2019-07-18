@@ -81,6 +81,8 @@ header {
 header p {
   text-align:center;
   font-family: "Merriweather";
+  font-size: 1.3em;
+  font-weight:bold;
   
   margin:0;
   
@@ -94,7 +96,7 @@ header p {
 .subtitle {
   font-family: "Merriweather";
   padding-top:.3em;
-  font-size:0.55em;
+  font-size:0.7em;
   font-weight:500;
   color: #424242;
 }
@@ -161,7 +163,8 @@ body > div > article > div > section:last-child {
   
   color: #212121;
   
-  font-size:0.975em;
+  font-size:1.2em;
+  font-weight:bold;
   
   text-align:center;
   vertical-align:middle;
