@@ -15,6 +15,14 @@ header p {
   font-size: 1.75em;
 }
 
+a:after {
+    content: '';
+}
+
+a[href]:after {
+    content: none !important;
+}
+
 .subtitle {
   font-size: 0.75em;
 }
@@ -23,11 +31,7 @@ header p {
   float:left;
 }
 
-.initial-content {
-  display: none;
-}
-
-.profiles {
+.initial-content, .profiles {
   display: none;
 }
 

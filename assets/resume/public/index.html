@@ -169,7 +169,7 @@ body > div > article > div > section:last-child {
   
   color: #212121;
   
-  font-size:1.2em;
+  font-size:1.1em;
   font-weight:bold;
   
   text-align:center;
@@ -350,6 +350,14 @@ header p {
   font-size: 1.75em;
 }
 
+a:after {
+    content: '';
+}
+
+a[href]:after {
+    content: none !important;
+}
+
 .subtitle {
   font-size: 0.75em;
 }
@@ -358,11 +366,7 @@ header p {
   float:left;
 }
 
-.initial-content {
-  display: none;
-}
-
-.profiles {
+.initial-content, .profiles {
   display: none;
 }
 
