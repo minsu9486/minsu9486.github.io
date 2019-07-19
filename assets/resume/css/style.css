@@ -218,12 +218,13 @@ body > div > article > div > section:last-child {
   font-weight:600;
 }
 
+/* Link's color */
 .content-text ul li a, div.content-text.work-listing.education-listing > p > strong > a {
   text-decoration: none;
   color: #0277bd;
 }
 
-.content-text ul li a:hover {
+.content-text ul li a:hover, div.content-text.work-listing.education-listing > p > strong > a:hover {
   color:#4fc3f7;
 }
 
@@ -300,7 +301,6 @@ div.content-text.skills-listing > p > {
 
 @media screen and (max-width: 600px) {
   body, html {
-    padding-top: 30px;
   }
 
   .paper {

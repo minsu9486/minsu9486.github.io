@@ -113,12 +113,13 @@ div.content-text.skills-listing > ul > li:first-child {
   border-left:1px solid #eeeeee;
 }
 
-.content-text ul li a:hover {
-  color:#4fc3f7;
+/* Remove link's color */
+.content-text ul li a, div.content-text.work-listing.education-listing > p > strong > a {
+    color: #000000;
 }
 
 .highlight:hover, .content-text.skills-listing > ul > li > .highlight:hover {
-  border-left:1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
 }
 
 .big-text {
