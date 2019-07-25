@@ -11,4 +11,5 @@ Professional Projects:
 Other Projects:
  - Floating Fuzzy
  - Adaptation
+ - Blanc Animator
  - Don't Stare

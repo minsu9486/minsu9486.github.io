@@ -36,7 +36,7 @@
       "endDate": "11 2018",
       "summary": "Network monitoring and intrusion attempts analysis",
       "highlights": [
-        "- Classified actual intrusion attempts from false-positives through IDS & IPS",
+        "- Distinguished actual intrusion attempts from false-positives through IDS & IPS",
         "- Analyzed suspicious HTTP packets using Wireshark",
         "- Team Leader, Nov 2017 - May 2018 (7 months)"
       ]
