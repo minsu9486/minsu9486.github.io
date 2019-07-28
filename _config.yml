@@ -14,18 +14,21 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Blue Ocean"
 title_separator          : " in "
 name                     : "Minsu Kang"
-description              : "This is Minsu's Blue Blog which is an archive related to my programing life"
+description              : "This is Minsu's Blue Ocean which is an archive related to my programing life"
 url                      : "https://minsu9486.github.io"
 baseurl                  : # "/baseurl"
 repository               : "minsu9486/minsu9486.github.io"
 teaser                   : "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Blue Ocean"
+
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -75,11 +78,14 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
 
 # Social Sharing
 twitter:
@@ -97,6 +103,7 @@ social:
   links:
     - "https://www.instagram.com/blue_lust"
     - "https://www.linkedin.com/in/minsu-k-635412101"
+
 
 # Analytics
 analytics:
@@ -128,6 +135,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/blue_lust/"
+      
 
 # Site Footer
 footer:
@@ -153,6 +161,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/blue_lust/"
+
 
 # Reading Files
 include:
@@ -184,7 +193,6 @@ exclude:
   - log
   - node_modules
   - Rakefile
-
   - tmp
 keep_files:
   - .git
@@ -282,6 +290,16 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  projects_pro:
+    output: true
+    permalink: /:collection/:path/
+  projects_oth:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -302,3 +320,32 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _projects_pro
+  - scope:
+      path: ""
+      type: projects_pro
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      company: "N/A"
+      engine: "N/A"
+      platform: "N/A"
+      skills: "N/A"
+      role: "N/A"
+      Responsibilities: "N/A"
+   # _projects_oth
+  - scope:
+      path: ""
+      type: projects_oth
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      company: "N/A"
+      engine: "N/A"
+      platform: "N/A"
+      skills: "N/A"
+      role: "N/A"
+      Responsibilities: "N/A"
+ 
