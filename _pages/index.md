@@ -7,10 +7,10 @@ header:
 excerpt: "Game Programmer"
 separate_line:
 feature_row:
-  - image_path: /assets/images/500x300.png
-    title: "Projects"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/projects"
+  - image_path: /assets/images/home_portfolio.png
+    title: "Portfolio"
+    excerpt: "My **projects** from personal to professional one that I've made and participated."
+    url: "/portfolio"
     btn_label: "See More"
     btn_class: "btn--primary"
   - image_path: /assets/images/500x300.png

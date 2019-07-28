@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-permalink: /projects/
+title: "Portfolio"
+permalink: /portfolio/
 collection1: projects_pro
 collection2: projects_oth
 entries_layout: grid
