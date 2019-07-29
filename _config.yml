@@ -21,7 +21,7 @@ title                    : "Blue Ocean"
 title_separator          : " in "
 name                     : "Minsu Kang"
 description              : "This is Minsu's Blue Ocean which is an archive related to my programing life"
-url                      : "https://minsu9486.github.io"
+url                      : "https://minsu9486.github.io" # BlueOceanWhereBlueOctoLives
 baseurl                  : # "/baseurl"
 repository               : "minsu9486/minsu9486.github.io"
 teaser                   : "/assets/images/500x300.png"

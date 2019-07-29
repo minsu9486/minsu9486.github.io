@@ -15,13 +15,13 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/500x300.png
     title: "Blog"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: ""
     url: "/blog"
     btn_label: "Read More"
     btn_class: "btn--success"
   - image_path: /assets/images/500x300.png
     title: "Résumé"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "One-page resume, not a **C**urriculum **V**itae."
     url: "/resume"
     btn_label: "Know More"
     btn_class: "btn--warning"
