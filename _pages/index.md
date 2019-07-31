@@ -9,7 +9,7 @@ separate_line:
 feature_row:
   - image_path: /assets/images/home_portfolio.png
     title: "Portfolio"
-    excerpt: "My **projects** from personal to professional one that I've made and participated."
+    excerpt: "Projects from personal to professional one that I've made and participated."
     url: "/portfolio"
     btn_label: "See More"
     btn_class: "btn--primary"
@@ -19,9 +19,9 @@ feature_row:
     url: "/blog"
     btn_label: "Read More"
     btn_class: "btn--success"
-  - image_path: /assets/images/500x300.png
+  - image_path: /assets/images/home_resume.png
     title: "Résumé"
-    excerpt: "One-page resume, not a **C**urriculum **V**itae."
+    excerpt: "A sheet of summarized report on *Minsu*."
     url: "/resume"
     btn_label: "Know More"
     btn_class: "btn--warning"

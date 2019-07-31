@@ -34,7 +34,7 @@
       "website": "http://www.mnd.go.kr/mbshome/mbs/mndEN",
       "startDate": "03 2017",
       "endDate": "11 2018",
-      "summary": "Network monitoring and intrusion attempts analysis",
+      "summary": "The main task was network monitoring and intrusion attempts analysis in fourth shift.",
       "highlights": [
         "- Distinguished actual intrusion attempts from false-positives through IDS & IPS",
         "- Analyzed suspicious HTTP packets using Wireshark",

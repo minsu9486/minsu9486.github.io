@@ -8,12 +8,12 @@ classes: wide
 ---
 
 Professional Projects:
- - LINE: JoJo's Bizarre Adventure - Stardust Shooters
+ - ~~LINE: JoJo's Bizarre Adventure - Stardust Shooters~~
 
 Other Projects:
  - Floating Fuzzy
  - Adaptation
- - Blanc Animator
+ - ~~Blanc Animator~~
  - Don't Stare
 
 ### Professional Projects & Other Projects:  
