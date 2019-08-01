@@ -47,7 +47,7 @@
       "website": "http://www.funigloo.com",
       "startDate": "11 2015",
       "endDate": "12 2016",
-      "summary": "Game Engine: Cocos2D-X / Platform: Smartphone / OS: Android",
+      "summary": "I was in charge of Android, LINE SDK, and foreign languages with Cocos2D-X.",
       "highlights": [
         "- Implemented an interlocking process between JAVA and C++ using JNI",
         "- Implemented 3 languages supporting system with UTF-8 issue",
