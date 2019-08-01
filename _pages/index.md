@@ -21,7 +21,7 @@ feature_row:
     btn_class: "btn--success"
   - image_path: /assets/images/home_resume.png
     title: "Résumé"
-    excerpt: "A sheet of summarized report on *Minsu*."
+    excerpt: "One sheet of summarized report on *Minsu*."
     url: "/resume"
     btn_label: "Know More"
     btn_class: "btn--warning"
