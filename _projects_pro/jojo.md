@@ -23,7 +23,7 @@ responsibilities: "Android, foreign language parts)"
 ### Assigned Tasks
  - Implementing an interlocking process between Java and C++ using [JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/)
  - Implementing 3 languages (English, Thai, Taiwanese) supporting system with UTF-8 issue
- - Adding [LINE SDK](https://developers.line.biz/en/) with related contents
+ - Adding [LINE SDK](https://developers.line.biz/en/) with related social contents and UI
  - Maintaing the live service
 
 ### Game Description

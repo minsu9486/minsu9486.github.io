@@ -51,7 +51,7 @@
       "highlights": [
         "- Implemented an interlocking process between JAVA and C++ using JNI",
         "- Implemented 3 languages supporting system with UTF-8 issue",
-        "- Added LINE (SNS App) SDK & Maintained the live service"
+        "- Added LINE (SNS App) SDK with social contents and UI"
       ]
     }
   ],
