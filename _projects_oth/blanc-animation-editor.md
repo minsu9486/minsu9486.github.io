@@ -5,7 +5,7 @@ excerpt: "A 2D skeletal animation tool for my other team project, Adaptation."
 header:
   image: /assets/images/anitool_whole_wide.png
   teaser: /assets/images/anitool_geometry_play.gif
-category: "Student project"
+type: "Student project"
 platform: "Windows"
 skills: "C#, Linear algebra"
 role: "Tool engineer"
@@ -13,15 +13,15 @@ responsibilities: "Animation tool for [Adaptation](/adaptation)"
 ---
 
 | |
-| **Category**	|{{page.category}}									|||**Engine**			|{{page.engine}}
+| **Category**	|{{page.type}}									|||**Engine**			|{{page.engine}}
 | **Platform**	|{{page.platform}}								|||**Skills**			|{{page.skills}}	
 | |
 | **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
 
 ### Assigned Tasks
- - Save & load system
- - Natural moving bones which automatically follow their parent
- - ~~Texture preview system~~ (Test-Box in the image)
+ - Implementing save & load system
+ - Implementing natural moving bones which automatically follow their parent
+ - ~~Implementing texture preview system~~ (Test-Box in the image)
 
 ### Description
 <figure class="half">

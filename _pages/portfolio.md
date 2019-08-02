@@ -1,8 +1,8 @@
 ---
 title: "Portfolio"
 permalink: /portfolio/
-collection1: professional
-collection2: others
+collection1: projects_pro
+collection2: projects_oth
 entries_layout: grid
 classes: wide
 ---
@@ -11,11 +11,11 @@ Professional Projects:
  - ~~LINE: JoJo's Bizarre Adventure - Stardust Shooters~~
 
 Other Projects:
- - ~~Floating Fuzzy~~
+ - Floating Fuzzy
  - Adaptation
  - ~~Blanc Animator~~
  - Don't Stare
- 
+
 ### Professional Projects & Other Projects:  
 ***
 <div class="entries-{{ page.entries_layout }}">
