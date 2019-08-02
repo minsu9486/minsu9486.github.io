@@ -11,10 +11,7 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
-          <span class="site-maintitle">{{ site.masthead_title | default: site.title }}</span>
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
-        </a>
+        <a class="site-title" href="{{ '/' | relative_url }}" style="color:DodgerBlue;font-size:200%;">{{ site.masthead_title | default: site.title }}</a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {%- if link.url contains '://' -%}
