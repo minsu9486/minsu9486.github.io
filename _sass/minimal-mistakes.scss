@@ -7,6 +7,9 @@
 /* Variables */
 @import "minimal-mistakes/variables";
 
+/* My Theme */
+@import "minsu-mistakes";
+
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
