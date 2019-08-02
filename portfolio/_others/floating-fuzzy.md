@@ -14,7 +14,7 @@ responsibilities: "Gameplay, UI, & game design"
 ---
 
 | |
-| **Category**	|{{page.category}}								|||**Engine**			|{{page.engine}}
+| **Category**	|{{page.category}}									|||**Engine**			|{{page.engine}}
 | **Platform**	|{{page.platform}}								|||**Skills**			|{{page.skills}}	
 | |
 | **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
