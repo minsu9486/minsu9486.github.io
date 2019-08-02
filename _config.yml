@@ -19,6 +19,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Blue Ocean"
 title_separator          : " in "
+subtitle                 : "Where Blue Octo Lives"
 name                     : "Minsu Kang"
 description              : "This is Minsu's Blue Ocean which is an archive related to my programing life"
 url                      : "https://minsu9486.github.io" # BlueOceanWhereBlueOctoLives
@@ -291,14 +292,14 @@ compress_html:
 
 
 # Collections
+collections_dir: portfolio
 collections:
-  projects_pro:
+   professional:
     output: true
-    permalink: /:collection/:path/
-  projects_oth:
+    permalink: /:collection/:path
+   others:
     output: true
-    permalink: /:collection/:path/
-
+    permalink: /:collection/:path
 
 # Defaults
 defaults:
@@ -320,10 +321,10 @@ defaults:
     values:
       layout: single
       author_profile: false
-  # _projects_pro
+  # _professional
   - scope:
       path: ""
-      type: projects_pro
+      type: professional
     values:
       layout: single
       author_profile: true
@@ -334,15 +335,15 @@ defaults:
       skills: "N/A"
       role: "N/A"
       Responsibilities: "N/A"
-   # _projects_oth
+   # _others
   - scope:
       path: ""
-      type: projects_oth
+      type: others
     values:
       layout: single
       author_profile: true
       share: false
-      company: "N/A"
+      # category: "N/A"
       engine: "N/A"
       platform: "N/A"
       skills: "N/A"

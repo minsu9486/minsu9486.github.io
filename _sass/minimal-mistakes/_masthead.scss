@@ -53,6 +53,18 @@
   z-index: 20;
 }
 
+.site-maintitle {
+    color: $blue-in-white;
+    font-size: $type-size-4;
+}
+
+.site-subtitle {
+    display: block;
+    color: $blue-in-white;
+    font-size: $type-size-8;
+    margin-left: 2.5em
+}
+
 .masthead__menu {
   float: left;
   margin-left: 0;
