@@ -9,7 +9,7 @@ header:
 category: "Professional project"
 company: "[Funigloo](http://www.funigloo.com/)"
 engine: "Cocos2d-x"
-platform: "Android, iOS"
+platform: "Android & iOS mobile"
 skills: "C++, Java"
 role: "Client side engineer"
 responsibilities: "Android & localization with LINE Corp."

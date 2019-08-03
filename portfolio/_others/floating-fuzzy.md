@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/fuzzy_icon.png
 category: "Indie project"
 engine: "Unity"
-platform: "Android"
+platform: "Android mobile"
 skills: "C#"
 role: "Client side engineer"
 responsibilities: "Gameplay, UI, & game design"
