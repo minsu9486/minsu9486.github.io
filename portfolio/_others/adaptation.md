@@ -14,12 +14,11 @@ responsibilities: "Terrain & level design"
 ---
 
 <style>
-.hover_img b { font-size:1.25em; }
-.hover_img a { position:relative; }
-.hover_img a span { position:absolute; display:none; }
-.hover_img a:hover span { display:block; width: 25vw; min-width: 250px;}
+.markdown_list ul { margin-bottom:10px; list-style-position: outside; }
+.hover_img { position:relative; }
+.hover_img span { position:absolute; display:none; }
+.hover_img:hover span { display:block; width:25vw; min-width:250px;}
 </style>
-
 
 | |
 | **Category**	|{{page.category}}								|||**Engine**			|{{page.engine}}
@@ -27,14 +26,20 @@ responsibilities: "Terrain & level design"
 | |
 | **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
 
-### Assigned Tasks
-<div class="hover_img">
-  <b>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;</b>A tile-based platform which can be destroyed and has no size limits<br>
-  <b>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;</b>A randomized terrain generator (cave, floating land, flat, mountain, valley)<br>
-  <b>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;</b>Organizing all object data in each tile for collision detection and interaction<br>
-  <b>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;</b>A external 
-  <a href="/blanc-animator">2D skeletal animation tool<span><img src="/assets/images/anitool_run_play.gif" /></span></a>
-  for the characters' motion
+### Assigned Tasks 
+<div class="markdown_list">
+  <ul>
+    <li>A tile-based platform which can be destroyed and has no size limits</li>
+    <li>A randomized terrain generator (cave, floating land, flat, mountain, valley)</li>
+    <li>Organizing all object data in each tile for efficient collision detection and interaction</li>
+    <li>
+	  An external
+      <a class="hover_img" href="/blanc-animator">
+        2D skeletal animation tool<span><img src="/assets/images/anitool_run_play.gif" /></span>
+      </a>
+      for the characters' motion
+    </li>
+  </ul>
 </div>
 
 ### Description
