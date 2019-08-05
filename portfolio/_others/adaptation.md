@@ -1,7 +1,7 @@
 ---
 title: "Adaptation"
 permalink: /adaptation/
-excerpt: "A 2D survive game which two players should cooperate together and evolve their body parts."
+excerpt: "A 2D survive game in which two players should cooperate and evolve on the open world"
 header:
   image: /assets/images/adap_main_wide.png
   teaser: /assets/images/adap_char.png
@@ -31,10 +31,10 @@ responsibilities: "Terrain & level design"
   <ul>
     <li>A tile-based platform which can be destroyed and has no size limits</li>
     <li>A randomized terrain generator (cave, floating land, flat, mountain, valley)</li>
-    <li>Organizing all object data in each tile for efficient collision detection and interaction</li>
+    <li><a href="#tech-description" title="Refer Tech Desc.">Organizing all object data</a> in each tile, where objects are, for efficient collision detection</li>
     <li>
 	  An external
-      <a class="hover_img" href="/blanc-animator">
+      <a class="hover_img" href="/blanc-animator" title="Go to Blanc Animation Editor">
         2D skeletal animation tool<span><img src="/assets/images/anitool_run_play.gif" /></span>
       </a>
       for the characters' motion
@@ -42,15 +42,17 @@ responsibilities: "Terrain & level design"
   </ul>
 </div>
 
-### Description
+### Game Description
 <figure class="third">
 	<img src="/assets/images/adap_ingame_1.jpg">
 	<img src="/assets/images/adap_ingame_2.PNG">
 	<img src="/assets/images/adap_ingame_3.jpg">
-	<figcaption>It is basically consisted of dots(joints) and lines(bones) with several data. This tool supports a convenient function which is child bones automatically follow their parent joint. The exported format is INI file.</figcaption>
+	<figcaption>It's an action based survival game featuring upgrading characters by attaching
+multiple unique parts. Two players can control each character on the open-world stage. They should cooperate to survive and collect resources so that the players can attach unique parts with own skills.</figcaption>
 </figure>
 
+### Tech Description
 <figure>
 	<img src="/assets/images/adap_tech.png">
-	<figcaption>The maximum frame is eight, and each frame is controlled by different time span. Using these elements, objects can express various and complex motions in the game.</figcaption>
+	<figcaption>All moving objects are allocated a 3x3 box which centers around the object itself and has data such as a terrain type or currently which objects are. Therefore, moving objects especially a player character don't need to check other objects which is outside of their 3x3 box. This technique allows to reduce lots of computation time on collision detection and other interaction check.</figcaption>
 </figure>
