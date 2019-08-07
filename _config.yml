@@ -168,6 +168,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  # - _posts
+  # - portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -243,6 +245,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -252,7 +255,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+  - jekyll-archives
 
 # Archives
 #  Type
@@ -265,22 +268,21 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -292,12 +294,8 @@ compress_html:
 
 
 # Collections
-collections_dir: portfolio
 collections:
-   professional:
-    output: true
-    permalink: /:collection/:path
-   others:
+   portfolio:
     output: true
     permalink: /:collection/:path
 
@@ -314,6 +312,8 @@ defaults:
       comments: false
       share: false
       related: false
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"
@@ -321,32 +321,22 @@ defaults:
     values:
       layout: single
       author_profile: false
-  # _professional
+  # _portfolio
   - scope:
       path: ""
-      type: professional
+      type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: false
+      professional: false
       company: "N/A"
       engine: "N/A"
       platform: "N/A"
       skills: "N/A"
       role: "N/A"
       Responsibilities: "N/A"
-   # _others
-  - scope:
-      path: ""
-      type: others
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      # category: "N/A"
-      engine: "N/A"
-      platform: "N/A"
-      skills: "N/A"
-      role: "N/A"
-      Responsibilities: "N/A"
+      sidebar:
+        nav: "portfolio"
+        title: "P o r t f o l i o"
  

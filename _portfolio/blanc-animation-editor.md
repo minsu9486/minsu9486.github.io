@@ -1,11 +1,12 @@
 ---
 title: "Blanc Animation Editor"
-permalink: /blanc-animator/
+permalink: /portfolio/blanc-animator/
+date: 2014-09-01
 excerpt: "A 2D skeletal animation tool for my other team project, Adaptation."
 header:
   image: /assets/images/anitool_whole_wide.png
   teaser: /assets/images/anitool_run_play.gif
-category: "Student project"
+company: "Student Project"
 platform: "Windows PC"
 skills: "C#, Linear algebra"
 role: "Tool engineer"
@@ -13,10 +14,9 @@ responsibilities: "Animation tool for [Adaptation](/adaptation)"
 ---
 
 | |
-| **Category**	|{{page.category}}								|||**Engine**			|{{page.engine}}
-| **Platform**	|{{page.platform}}								|||**Skills**			|{{page.skills}}	
-| |
-| **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
+| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
+| **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ### Assigned Tasks
  - A save & load system

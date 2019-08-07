@@ -1,11 +1,12 @@
 ---
 title: "Floating Fuzzy"
-permalink: /floating-fuzzy/
+permalink: /portfolio/floating-fuzzy/
+date: 2017-01-01
 excerpt: "A 2D top-down dodge game in Android, where a size-adjustalbe fuzz should avoid other incoming fuzzies."
 header:
   image: /assets/images/fuzzy_main_wide.png
   teaser: /assets/images/fuzzy_icon.png
-category: "Indie project"
+company: "Indie Project"
 engine: "Unity"
 platform: "Android mobile"
 skills: "C#"
@@ -14,10 +15,9 @@ responsibilities: "Gameplay, UI, & game design"
 ---
 
 | |
-| **Category**	|{{page.category}}									|||**Engine**			|{{page.engine}}
-| **Platform**	|{{page.platform}}								|||**Skills**			|{{page.skills}}	
-| |
-| **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
+| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
+| **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ### Assigned Tasks
  - A randomized obstacles generator which spawns objects with own color, size, speed, and sound pitch

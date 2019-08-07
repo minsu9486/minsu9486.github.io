@@ -1,12 +1,13 @@
 ---
 title: "LINE: JoJo's Bizarre Adventure SS"
-permalink: /jojo/
+permalink: /portfolio/jojo/
+date: 2015-11-01
 excerpt: "A 2D top-down shooter in IOS/Android where combat against enemies is done using Medal."
 header:
   image: /assets/images/jojo_main_wide.png
   caption: "[YouTube Link](https://www.youtube.com/watch?v=ktEDtEFHqGQ)"
   teaser: /assets/images/jojo_icon.png
-category: "Professional project"
+professional: true
 company: "[Funigloo](http://www.funigloo.com/)"
 engine: "Cocos2d-x"
 platform: "Android & iOS mobile"
@@ -14,12 +15,12 @@ skills: "C++, Java"
 role: "Client side engineer"
 responsibilities: "Android & localization with LINE Corp."
 ---
+<div style="text-align: right"> <i>{{ page.date | date: '%B %Y' }}</i> </div>
 
 | |
-| **Company**	|{{page.company}}								|||**Engine**			|{{page.engine}}
-| **Platform**	|{{page.platform}}								|||**Skills**			|{{page.skills}}
-| |
-| **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
+| **Company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}
+| **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ### Assigned Tasks
  - An interlocking process between Java and C++ using [JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/)

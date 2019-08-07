@@ -1,11 +1,12 @@
 ---
 title: "Adaptation"
-permalink: /adaptation/
+permalink: /portfolio/adaptation/
+date: 2015-03-01
 excerpt: "A 2D survive game in which two players should cooperate and evolve on the open world"
 header:
   image: /assets/images/adap_main_wide.png
   teaser: /assets/images/adap_char.png
-category: "Student project"
+company: "Student Project"
 engine: "Full-custom engine"
 platform: "Windows PC"
 skills: "C++"
@@ -21,10 +22,9 @@ responsibilities: "Terrain & level design"
 </style>
 
 | |
-| **Category**	|{{page.category}}								|||**Engine**			|{{page.engine}}
-| **Platform**	|{{page.platform}}								|||**Skills**			|{{page.skills}}	
-| |
-| **Role**		|<span style="color:red">{{page.role}}</span>	|||**Responsibilities**	|<span style="color:red">{{page.responsibilities}}</span>
+| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
+| **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ### Assigned Tasks 
 <div class="markdown_list">

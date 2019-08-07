@@ -1,12 +1,27 @@
 # main links
 main:
-   - title: "Home"
+   - title: "H o m e"
      url: /
-   - title: "Portfolio"
+   - title: "P o r t f o l i o"
      url: /portfolio/
-   - title: "Blog"
+   - title: "B l o g"
      url: /blog/
-   - title: "Résumé"
+   - title: "R é s u m é"
      url: /resume/
-   - title: "Contact"
+   - title: "C o n t a c t"
      url: /contact/
+
+# portfolio links
+portfolio:
+  - title: Professional
+    children:
+      - title: "JoJo's Bizarre Adventure"
+        url: /portfolio/jojo/
+  - title: Others
+    children:
+      - title: "Adaptation"
+        url: /portfolio/adaptation/
+      - title: "Blanc Animation Editor"
+        url: /portfolio/blanc-animator/
+      - title: "Floating Fuzzy"
+        url: /portfolio/floating-fuzzy/

@@ -1,26 +1,31 @@
 ---
-title: "Portfolio"
+title: Portfolio
 permalink: /portfolio/
-collection1: professional
-collection2: others
+collection: portfolio
+sort_by: "date"
 entries_layout: grid
+sort_order: reverse
 classes: wide
 ---
 
-Professional Projects:
- - ~~LINE: JoJo's Bizarre Adventure - Stardust Shooters~~
+WILL USE FEATURE_ROW TO ORGANIZE CONTENTS  
+https://mmistakes.github.io/minimal-mistakes/splash-page/  
+https://github.com/mmistakes/minimal-mistakes/blob/master/docs//_pages/splash-page.md  
 
-Other Projects:
- - ~~Floating Fuzzy~~
- - Adaptation
- - ~~Blanc Animator~~
- 
-### Professional Projects & Other Projects:  
+### Professional & Other Projects: 
 ***
-<div class="entries-{{ page.entries_layout }}">
-  {% include documents-collection.html collection=page.collection1 sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
+{% assign professionals = site.portfolio | where: "professional", true | sort: "date" | reverse %}
+{% assign others = site.portfolio | where: "professional", false | sort: "date" | reverse %}
 
-<div class="entries-{{ page.entries_layout }}">
-  {% include documents-collection.html collection=page.collection2 sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
+{% for professional in professionals %}
+    {{professional.title}}
+{%endfor%}
+
+{% for other in others %}
+    {{other.title}}
+{%endfor%}
+***
+
+{% for portfolio in site.portfolio %}
+  <a href="{{portfolio.url}}">{{portfolio.title}}</a>
+{%endfor%}

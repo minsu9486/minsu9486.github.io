@@ -8,19 +8,19 @@ excerpt: "Game Programmer"
 separate_line:
 feature_row:
   - image_path: /assets/images/home_portfolio.png
-    title: "Portfolio"
+    title: "P o r t f o l i o"
     excerpt: "Projects from personal to professional one that I've made or participated."
     url: "/portfolio"
     btn_label: "See More"
     btn_class: "btn--primary"
   - image_path: /assets/images/500x300.png
-    title: "Blog"
+    title: "B l o g"
     excerpt: ""
     url: "/blog"
     btn_label: "Read More"
     btn_class: "btn--success"
   - image_path: /assets/images/home_resume.png
-    title: "Résumé"
+    title: "R é s u m é"
     excerpt: "One sheet of summarized report on *Minsu*."
     url: "/resume"
     btn_label: "Know More"
@@ -37,4 +37,4 @@ Although I have over 2 years of professional experience in IT industry, I'm curr
 
 {% include feature_row %}
 
-[Contact](/contact){: .btn .btn--info .btn--block}
+[C&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;&nbsp;t&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;t](/contact){: .btn .btn--info .btn--block}
