@@ -33,7 +33,7 @@ feature_row:
 </style>
 
 <figure style="width: 300px" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Avatar.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/avatar.png" alt="">
 </figure> 
 
 Hi! I’m Minsu, a curious game programmer who is always crawling on the programming world to satisfy my curiosity. The hunger for new knowledge has been my fuel to keep on working hard since I first said hello to the world.
