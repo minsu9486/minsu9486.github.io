@@ -13,6 +13,7 @@ skills: "C++"
 role: "Gameplay & tool engineer"
 responsibilities: "Terrain & level design"
 ---
+<div style="text-align: right"> <i>{{ page.date | date: '%Y' }}</i> </div>
 
 <style>
 .markdown_list ul { margin-bottom:10px; list-style-position: outside; }

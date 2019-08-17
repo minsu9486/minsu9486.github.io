@@ -117,7 +117,7 @@ analytics:
 # Site Author
 author:
   name             : "Minsu Kang"
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "Programming should be conducted by a warm heart, not a cold brain."
   location         : "Ulsan, KR"
   email            : "minsu9486@gmail.com"

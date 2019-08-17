@@ -15,7 +15,7 @@ skills: "C++, Java"
 role: "Client side engineer"
 responsibilities: "Android & localization with LINE Corp."
 ---
-<div style="text-align: right"> <i>{{ page.date | date: '%B %Y' }}</i> </div>
+<div style="text-align: right"> <i>{{ page.date | date: '%Y' }}</i> </div>
 
 | |
 | **Company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}

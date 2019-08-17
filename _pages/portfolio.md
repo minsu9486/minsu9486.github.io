@@ -1,11 +1,10 @@
 ---
 title: Portfolio
 permalink: /portfolio/
+layout: splash
 collection: portfolio
 sort_by: "date"
-entries_layout: grid
 sort_order: reverse
-classes: wide
 ---
 
 WILL USE FEATURE_ROW TO ORGANIZE CONTENTS  

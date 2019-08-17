@@ -12,6 +12,7 @@ skills: "C#, Linear algebra"
 role: "Tool engineer"
 responsibilities: "Animation tool for [Adaptation](/adaptation)"
 ---
+<div style="text-align: right"> <i>{{ page.date | date: '%Y' }}</i> </div>
 
 | |
 | **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
