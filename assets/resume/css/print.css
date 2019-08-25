@@ -35,6 +35,10 @@ a[href]:after {
   display: none;
 }
 
+.page__hero, .page__hero--overlay, .page__hero-image, .page__hero-caption {
+  display: none;
+}
+
 .content {
   page-break-inside:avoid; 
   page-break-after:auto;
