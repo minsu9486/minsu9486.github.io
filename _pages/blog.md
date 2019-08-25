@@ -2,6 +2,8 @@
 title: "Blog"
 permalink: /blog/
 layout: single
+header:
+  overlay_color: "#000"
 author_profile: true
 type: category
 ---

@@ -1,5 +1,5 @@
 ---
-title: Minsu Kang
+title: Minsu Kang 
 permalink: /
 layout: splash
 header:

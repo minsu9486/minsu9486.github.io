@@ -1,32 +1,43 @@
 ---
 title: Portfolio
 permalink: /portfolio/
-layout: splash
-collection: portfolio
+layout: single
+header:
+  overlay_color: "#000"
+author_profile: true
 sort_by: "date"
 sort_order: reverse
 ---
 
-WILL USE FEATURE_ROW TO ORGANIZE CONTENTS  
-https://mmistakes.github.io/minimal-mistakes/splash-page/  
-https://github.com/mmistakes/minimal-mistakes/blob/master/docs//_pages/splash-page.md  
+<style>
+.align-center { width: 40vw; max-width: 600px; min-width: 300px; }
+</style>
 
-***
 {% assign professionals = site.portfolio | where: "professional", true | sort: "date" | reverse %}
 {% assign others = site.portfolio | where: "professional", false | sort: "date" | reverse %}
 
-### Professional Projects: 
+<h1 style="text-align: center;">Professional Proejcts</h1>
 {% for professional in professionals %}
-    {{professional.title}}
+  <figure class="align-center">
+    <h2> {{professional.title}} </h2>
+    <a href="{{professional.permalink}}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{professional.header.teaser}}" alt="">
+    </a>
+    <figcaption>{{professional.excerpt}}</figcaption>
+  </figure> 
 {%endfor%}
 
-
-### Other Projects: 
-{% for other in others %}
-    {{other.title}}
-{%endfor%}
 ***
 
-{% for portfolio in site.portfolio %}
-  <a href="{{portfolio.url}}">{{portfolio.title}}</a>
+<h1 style="text-align: center;">Other Proejcts</h1>
+{% for other in others %}
+  <figure class="align-center">
+    <h2> {{other.title}} </h2>
+    <a href="{{other.permalink}}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{other.header.teaser}}" alt="">
+    </a>
+    <figcaption>{{other.excerpt}}</figcaption>
+  </figure> 
 {%endfor%}
+
+***
