@@ -182,8 +182,9 @@ exclude:
   - assets/js/_main.js
   - assets/js/vendor
   - assets/resume/css
-  - assets/resume.json
-  - assets/resume.template
+  - assets/resume/resume.json
+  - assets/resume/resume.template
+  - assets/resume/node_modules
   - README.md
   - Gruntfile.js
   - gulpfile.js
@@ -194,7 +195,6 @@ exclude:
   - Gemfile
   - LICENSE
   - log
-  - node_modules
   - Rakefile
   - tmp
 keep_files:
