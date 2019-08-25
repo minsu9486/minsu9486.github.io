@@ -35,7 +35,7 @@ responsibilities: "Terrain & level design"
     <li><a href="#tech-description" title="Refer Tech Desc.">Organizing all object data</a> in each tile, where objects are, for efficient collision detection</li>
     <li>
 	  An external
-      <a class="hover_img" href="/blanc-animator" title="Go to Blanc Animation Editor">
+      <a class="hover_img" href="/portfolio/blanc-animator" title="Go to Blanc Animation Editor">
         2D skeletal animation tool<span><img src="/assets/images/anitool_run_play.gif" /></span>
       </a>
       for the characters' motion

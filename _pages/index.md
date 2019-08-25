@@ -4,7 +4,7 @@ permalink: /
 layout: splash
 header:
   overlay_color: "#000"
-excerpt: "Game Programmer"
+excerpt: "Software Engineer"
 separate_line:
 feature_row:
   - image_path: /assets/images/home_portfolio.png
@@ -36,7 +36,7 @@ feature_row:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/avatar.png" alt="">
 </figure> 
 
-Hi! I’m Minsu, a curious game programmer who is always crawling on the programming world to satisfy my curiosity. The hunger for new knowledge has been my fuel to keep on working hard since I first said hello to the world.
+Hi! I’m Minsu, a curious software engineer who is always crawling on the programming world to satisfy my curiosity. The hunger for new knowledge has been my fuel to keep on working hard since I first said hello to the world.
 {: style="text-align: justify;"}
   
 Although I have over 2 years of professional experience in IT industry, I'm currently a full-time student in Computer Science in Real-Time Interactive Simulation at Digipen. When I was a sophomore in a college, I was really wondering about the authentic life of a game developer in the real industry during. So I postponed my studies and began to work at a small mobile gaming company as a client side programmer. In the next year, I answered the call of duty from my country and completed my military service at Republic of Korea Cyber Command as a Network Security Analyst.
