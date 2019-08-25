@@ -91,6 +91,35 @@
           {{/location}}
       {{/resume.basics}}
         
+          {{#if resume.skills.length}}
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Skills
+              </div>
+              <div class="content-text skills-listing">
+                {{#foreach resume.skills}}
+                  <p>
+                    <span class="name">
+                      {{#if name}}
+                        <strong>
+                          {{name}}{{#if level}}{{else}}:{{/if}}
+                        </strong>
+                      {{/if}}
+                    </span>
+                    {{#if level}}
+                      <span>({{level}}):</span>
+                    {{/if}}
+                    {{#if keywords.length}}
+                      {{#commalist keywords}}{{.}}{{/commalist}}
+                    {{/if}}
+                  </p>
+                {{/foreach}}
+              </div>
+            </div>
+          </section>
+          {{/if}}
+
           {{#if resume.work.length}}
             {{#foreach resume.work}}
               {{#if $first}}
@@ -246,35 +275,6 @@
                 </div>
               </section>
             {{/foreach}}
-          {{/if}}
-
-          {{#if resume.skills.length}}
-          <section class="content">
-            <div class="row">
-              <div class="content-cat">
-                Skills
-              </div>
-              <div class="content-text skills-listing">
-                {{#foreach resume.skills}}
-                  <p>
-                    <span class="name">
-                      {{#if name}}
-                        <strong>
-                          {{name}}{{#if level}}{{else}}:{{/if}}
-                        </strong>
-                      {{/if}}
-                    </span>
-                    {{#if level}}
-                      <span>({{level}}):</span>
-                    {{/if}}
-                    {{#if keywords.length}}
-                      {{#commalist keywords}}{{.}}{{/commalist}}
-                    {{/if}}
-                  </p>
-                {{/foreach}}
-              </div>
-            </div>
-          </section>
           {{/if}}
 
   <!-- LANGUAGE -->

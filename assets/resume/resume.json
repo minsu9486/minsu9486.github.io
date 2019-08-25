@@ -36,8 +36,7 @@
       "endDate": "11 2018",
       "summary": "The main task was network monitoring and intrusion attempts analysis in fourth shift.",
       "highlights": [
-        "- Distinguished actual intrusion attempts from false-positives through IDS & IPS",
-        "- Analyzed suspicious HTTP packets using Wireshark",
+        "- Distinguished and analyzed suspicious HTTP packets from false-positives",
         "- Team Leader, Nov 2017 - May 2018 (7 months)"
       ]
     },
@@ -49,8 +48,8 @@
       "endDate": "12 2016",
       "summary": "I was in charge of Android, LINE SDK, and foreign languages with Cocos2D-X.",
       "highlights": [
-        "- Implemented an interlocking process between JAVA and C++ using JNI",
-        "- Implemented 3 languages supporting system with UTF-8 issue",
+        "- Implemented a compatible process between JAVA and C++",
+        "- Implemented three languages supporting system",
         "- Added LINE (SNS App) SDK with social contents and UI"
       ]
     }
