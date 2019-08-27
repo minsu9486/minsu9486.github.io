@@ -103,7 +103,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links:
     - "https://www.instagram.com/blue_lust"
-    - "https://www.linkedin.com/in/minsu-k-635412101"
+    - "https://www.linkedin.com/in/mean-kang"
 
 
 # Analytics
@@ -119,7 +119,7 @@ author:
   name             : "Minsu Kang"
   avatar           : "/assets/images/avatar.png"
   bio              : "Programming should be conducted by a warm heart, not a cold brain."
-  location         : "Ulsan, KR"
+  location         : "Redmond, WA"
   email            : "minsu9486@gmail.com"
   # Brand Icons: fontawesome.com/v4.7.0/icons/#brand
   # Icons Color: <site root>\_sass\minimal-mistakes\_utilities.scss 
@@ -129,7 +129,7 @@ author:
       # url: "https://your-website.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/minsu-k-635412101/"
+      url: "https://www.linkedin.com/in/mean-kang/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/minsu9486"
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/minsu-k-635412101/"
+      url: "https://www.linkedin.com/in/mean-kang/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:

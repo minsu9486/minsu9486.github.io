@@ -6,19 +6,14 @@ header:
   overlay_color: "#000"
 excerpt: "Software Engineer"
 separate_line:
-feature_row:
+feature_row_left:
   - image_path: /assets/images/home_portfolio.png
     title: "P o r t f o l i o"
     excerpt: "Projects from personal to professional one that I've made or participated."
     url: "/portfolio"
     btn_label: "See More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/500x300.png
-    title: "B l o g"
-    excerpt: ""
-    url: "/blog"
-    btn_label: "Read More"
-    btn_class: "btn--success"
+feature_row_right:
   - image_path: /assets/images/home_resume.png
     title: "R é s u m é"
     excerpt: "One sheet of summarized report on *Minsu*."
@@ -44,6 +39,7 @@ Although I have over 2 years of professional experience in IT industry, I'm curr
 
 {% include feature_row id="separate_line" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row_left" type="left"%}
+{% include feature_row id="feature_row_right" type="right"%}
 
 [C&nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;&nbsp;t&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;&nbsp;&nbsp;&nbsp;t](/contact){: .btn .btn--info .btn--block}

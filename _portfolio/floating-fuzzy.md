@@ -6,7 +6,8 @@ excerpt: "A 2D top-down dodge game in Android, where a size-adjustalbe fuzz shou
 header:
   image: /assets/images/fuzzy_main_wide.png
   teaser: /assets/images/fuzzy_icon.png
-company: "Indie Project"
+professional: true
+company: "Mango Kong"
 engine: "Unity"
 platform: "Android mobile"
 skills: "C#"
