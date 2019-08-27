@@ -120,7 +120,7 @@ author:
   avatar           : "/assets/images/avatar.png"
   bio              : "Programming should be conducted by a warm heart, not a cold brain."
   location         : "Redmond, WA"
-  email            : "minsu9486@gmail.com"
+  email            : "/contact/"
   # Brand Icons: fontawesome.com/v4.7.0/icons/#brand
   # Icons Color: <site root>\_sass\minimal-mistakes\_utilities.scss 
   links:
@@ -143,7 +143,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:minsu9486@gmail.com
+      url: /contact/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
