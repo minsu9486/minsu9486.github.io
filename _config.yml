@@ -168,8 +168,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  # - _posts
-  # - portfolio
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -245,7 +244,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -255,7 +253,6 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-archives
 
 # Archives
 #  Type
@@ -268,21 +265,22 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
@@ -296,6 +294,9 @@ compress_html:
 # Collections
 collections:
    portfolio:
+    output: true
+    permalink: /:collection/:path
+   scripts:
     output: true
     permalink: /:collection/:path
 
@@ -326,7 +327,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: portfolio
       author_profile: false
       share: false
       professional: false
@@ -337,6 +338,15 @@ defaults:
       role: "N/A"
       Responsibilities: "N/A"
       sidebar:
+        title: "P O R T F O L I O"
         nav: "portfolio"
-        title: "P o r t f o l i o"
- 
+  # _scripts
+  - scope:
+      path: ""
+      type: scripts
+    values:
+      layout: splash
+      header:
+        overlay_color: "#000"
+      author_profile: false
+      share: false

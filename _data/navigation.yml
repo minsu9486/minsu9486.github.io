@@ -15,12 +15,12 @@ main:
 portfolio:
   - title: Professional
     children:
+      - title: "Floating Fuzzy"
+        url: /portfolio/floating-fuzzy/
       - title: "JoJo's Bizarre Adventure"
         url: /portfolio/jojo/
   - title: Others
     children:
-      - title: "Floating Fuzzy"
-        url: /portfolio/floating-fuzzy/
       - title: "Adaptation"
         url: /portfolio/adaptation/
       - title: "Blanc Animation Editor"

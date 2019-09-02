@@ -12,19 +12,13 @@ skills: "C#, Linear algebra"
 role: "Tool engineer"
 responsibilities: "Animation tool for [Adaptation](/adaptation)"
 ---
-<div style="text-align: right"> <i>{{ page.date | date: '%Y' }}</i> </div>
 
 | |
 | **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Assigned Tasks
- - A save & load system
- - A natural moving bone system which automatically follow their parent
- - ~~A texture preview system~~ (Test-Box in the image)
-
-### Description
+### Game Description
 <figure class="half">
 	<img src="/assets/images/anitool_demo.gif">
 	<img src="/assets/images/anitool_exported_info.png">
@@ -36,3 +30,8 @@ responsibilities: "Animation tool for [Adaptation](/adaptation)"
 	<img src="/assets/images/anitool_ingame.gif">
 	<figcaption>The maximum frame is eight, and each frame is controlled by different time span. Using these elements, objects can express various and complex motions in the game.</figcaption>
 </figure>
+
+### Assigned Tasks
+ - A save & load system
+ - A natural moving bone system which automatically follow their parent
+ - ~~A texture preview system~~ (Test-Box in the image)

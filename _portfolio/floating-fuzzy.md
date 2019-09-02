@@ -13,20 +13,17 @@ platform: "Android mobile"
 skills: "C#"
 role: "Client side engineer"
 responsibilities: "Gameplay, UI, & game design"
+toc: true
+toc_label: "Table of Contents"
+toc_sticky: true
 ---
-<div style="text-align: right"> <i>{{ page.date | date: '%Y' }}</i> </div>
 
 | |
 | **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Assigned Tasks
- - A randomized obstacles generator which spawns objects with own color, size, speed, and sound pitch
- - An automatic level controller which generates obstacles with adequate size depending on the player's size
- - Cooperating in designing the game and the level of difficulty
-
-### Description
+### Game Description
 <figure class="third">
 	<img src="/assets/images/fuzzy_tutorial.jpg">
 	<img src="/assets/images/fuzzy_ingame_1.jpg">
@@ -39,6 +36,16 @@ responsibilities: "Gameplay, UI, & game design"
 	<img src="/assets/images/fuzzy_rank.jpg">
 	<figcaption>If the player's fuzz is eaten by a bigger one or is pumped into a triangular one, the fuzz will be dead. The score will be recorded in the developer's server with the ranking list as shown above.</figcaption>
 </figure>
+
+### Assigned Tasks
+ - Implemented a randomized obstacle generator: color, size, speed, and sound pitch
+ - Developed an automatic level controller based on a player’s attribute
+ - Cooperated in designing the game and the level of difficulty
+
+### Code
+ - [EnemyManager.cs](/scripts/ff-enemy-manager/) manages 3 types of objects with randomized attributes.
+ - [PlayerMovement.cs](/scripts/ff-player-collision/) controls mobile and PC inputs and related action.
+ - [PlayerCollision.cs](/scripts/ff-player-movement/) deals with collision response and each attributes.
 
 ### [App Info Archive](https://apkpure.com/floating-fuzzy/com.MangoCompany.FloatingFuzzy)
 {: style="text-align: center;"}
