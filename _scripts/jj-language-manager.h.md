@@ -1,5 +1,6 @@
 ---
 title: "LanguageManager.h"
+permalink: /scripts/jj-language-manager.h/
 layout: splash
 excerpt: "LINE: JoJo's Bizarre Adventure SS"
 ---

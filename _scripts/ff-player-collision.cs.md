@@ -1,5 +1,7 @@
 ---
 title: "PlayerCollision.cs"
+permalink: /scripts/ff-player-collision.cs/
+layout: splash
 layout: splash
 excerpt: "Floating Fuzzy"
 ---

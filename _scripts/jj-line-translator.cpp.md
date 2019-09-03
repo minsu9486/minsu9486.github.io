@@ -1,5 +1,6 @@
 ---
 title: "LineTranslator.cpp"
+permalink: /scripts/jj-line-translator.cpp/
 layout: splash
 excerpt: "LINE: JoJo's Bizarre Adventure SS"
 ---

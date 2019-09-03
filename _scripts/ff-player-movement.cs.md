@@ -1,5 +1,6 @@
 ---
 title: "PlayerMovement.cs"
+permalink: /scripts/ff-player-movement.cs/
 layout: splash
 excerpt: "Floating Fuzzy"
 ---

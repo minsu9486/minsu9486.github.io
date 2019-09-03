@@ -43,9 +43,9 @@ toc_sticky: true
  - Cooperated in designing the game and the level of difficulty
 
 ### Code
- - [EnemyManager.cs](/scripts/ff-enemy-manager/) manages 3 types of objects with randomized attributes.
- - [PlayerMovement.cs](/scripts/ff-player-collision/) controls mobile and PC inputs and related action.
- - [PlayerCollision.cs](/scripts/ff-player-movement/) deals with collision response and each attributes.
+ - [EnemyManager.cs](/scripts/ff-enemy-manager.cs/) manages 3 types of objects with randomized attributes.
+ - [PlayerMovement.cs](/scripts/ff-player-collision.cs/) controls mobile and PC inputs and related action.
+ - [PlayerCollision.cs](/scripts/ff-player-movement.cs/) deals with collision response and each attributes.
 
 ### [App Info Archive](https://apkpure.com/floating-fuzzy/com.MangoCompany.FloatingFuzzy)
 {: style="text-align: center;"}

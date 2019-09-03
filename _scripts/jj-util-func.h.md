@@ -1,5 +1,6 @@
 ---
 title: "UtilFunc.h"
+permalink: /scripts/jj-util-func.h/
 layout: splash
 excerpt: "LINE: JoJo's Bizarre Adventure SS"
 ---

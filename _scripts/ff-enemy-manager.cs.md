@@ -1,5 +1,6 @@
 ---
 title: "EnemyManager.cs"
+permalink: /scripts/ff-enemy-manager.cs/
 layout: splash
 excerpt: "Floating Fuzzy"
 ---
