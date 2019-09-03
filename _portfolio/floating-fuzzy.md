@@ -11,7 +11,7 @@ company: "Mango Kong"
 engine: "Unity"
 platform: "Android mobile"
 skills: "C#"
-role: "Client side engineer"
+role: "Client-side engineer"
 responsibilities: "Gameplay, UI, & game design"
 toc: true
 toc_label: "Table of Contents"

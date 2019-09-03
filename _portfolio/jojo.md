@@ -12,7 +12,7 @@ company: "[Funigloo](http://www.funigloo.com/)"
 engine: "Cocos2d-x"
 platform: "Android & iOS mobile"
 skills: "C++, Java"
-role: "Client side engineer"
+role: "Client-side engineer"
 responsibilities: "Android & localization with LINE Corp."
 toc: true
 toc_label: "Table of Contents"

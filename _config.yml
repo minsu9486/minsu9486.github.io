@@ -132,7 +132,7 @@ author:
       url: "https://www.linkedin.com/in/mean-kang/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/minsu9486"
+      url: "https://github.com/minsu9486"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/blue_lust/"
@@ -152,7 +152,7 @@ footer:
       url: "https://www.linkedin.com/in/mean-kang/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/minsu9486"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

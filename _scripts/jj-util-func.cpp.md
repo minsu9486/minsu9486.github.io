@@ -188,7 +188,8 @@ std::string UtilFunc::replaceEmojiToSqare(const std::string targetStr)
         BQ_INDEPENDENCE_LOG_DEBUG("UtilFunc", "code : %u", code);
         utf8::append(code, symbol);
         
-        BQ_INDEPENDENCE_LOG_DEBUG("UtilFunc", "replaceEmojiToSqare : %3u %3u %3u %3u %3u", symbol[0], symbol[1], symbol[2], symbol[3], symbol[4]);
+        BQ_INDEPENDENCE_LOG_DEBUG("UtilFunc", "replaceEmojiToSqare : %3u %3u %3u %3u %3u",
+                                  symbol[0], symbol[1], symbol[2], symbol[3], symbol[4]);
         
         // Distingush
         if(isEmoji(symbol))
