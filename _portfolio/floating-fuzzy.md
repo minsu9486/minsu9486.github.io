@@ -13,9 +13,6 @@ platform: "Android mobile"
 skills: "C#"
 role: "Client-side engineer"
 responsibilities: "Gameplay, UI, & game design"
-toc: true
-toc_label: "Table of Contents"
-toc_sticky: true
 ---
 
 | |

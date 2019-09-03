@@ -45,7 +45,9 @@ public class PlayerCollision : MonoBehaviour
 
             float playerSize = playerSpriteSize * transform.localScale.x;
             // 0.85f is offset for the white space in png
-            float otherSize = (otherBodyImage.GetComponent<SpriteRenderer>().sprite.bounds.max.x * otherBodyImage.localScale.x * 0.85f) * other.transform.localScale.x;
+            float otherSize = (otherBodyImage.GetComponent<SpriteRenderer>().sprite.bounds.max.x
+                               * otherBodyImage.localScale.x * 0.85f)
+                               * other.transform.localScale.x;
 
             // if the player eat the smaller fuzz
             if (playerSize > otherSize)
@@ -53,13 +55,14 @@ public class PlayerCollision : MonoBehaviour
                 // Merge the two colors
                 SpriteRenderer otherSpriteRenderer = otherBodyImage.GetComponent<SpriteRenderer>();
                 Color combinedColor = new Color((spriteBody.color.r * 0.5f) + (otherSpriteRenderer.color.r * 0.5f),
-                    (spriteBody.color.g * 0.5f) + (otherSpriteRenderer.color.g * 0.5f),
-                    (spriteBody.color.b * 0.5f) + (otherSpriteRenderer.color.b * 0.5f));
+                                                (spriteBody.color.g * 0.5f) + (otherSpriteRenderer.color.g * 0.5f),
+                                                (spriteBody.color.b * 0.5f) + (otherSpriteRenderer.color.b * 0.5f));
 
                 // Change the player's config
                 spriteBody.color = combinedColor; // Body Color
                 spriteFur.color = new Color(combinedColor.r, combinedColor.g, combinedColor.b, 1f); // Fur Color
-                transform.localScale += new Vector3(PlayerConfiguration.playerGrowVal, PlayerConfiguration.playerGrowVal, 0); // Grow!
+                transform.localScale += new Vector3(PlayerConfiguration.playerGrowVal,
+                                                    PlayerConfiguration.playerGrowVal, 0); // Grow!
                 counter.CountUp(); // Count up!
 
                 // Scaling effect on the Player's eye

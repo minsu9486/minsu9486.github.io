@@ -102,16 +102,16 @@
                   <p>
                     <span class="name">
                       {{#if name}}
-                        <strong>
-                          {{name}}{{#if level}}{{else}}:{{/if}}
-                        </strong>
+                          {{name}}{{#if level}}{{else}}{{/if}}
                       {{/if}}
                     </span>
                     {{#if level}}
-                      <span>({{level}}):</span>
+                      <span>({{level}})</span>
                     {{/if}}
                     {{#if keywords.length}}
+                      <strong>
                       {{#commalist keywords}}{{.}}{{/commalist}}
+                      </strong>
                     {{/if}}
                   </p>
                 {{/foreach}}

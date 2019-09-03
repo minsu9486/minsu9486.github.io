@@ -34,4 +34,4 @@ responsibilities: "Animation tool for [Adaptation](/adaptation)"
 ### Assigned Tasks
  - A save & load system
  - A natural moving bone system which automatically follow their parent
- - ~~A texture preview system~~ (Test-Box in the image)
+ - ~~A texture preview system~~ ("Test-Box" in the image)

@@ -43,7 +43,7 @@
     },
     {
       "company": "Funigloo",
-      "position": "Client Side Engineer",
+      "position": "Client-side Engineer",
       "website": "http://www.funigloo.com",
       "startDate": "11 2015",
       "endDate": "12 2016",
@@ -73,10 +73,14 @@
   ],
   "skills": [
     {
-      "name": "Game Development",
-      "level": "Proficient",
+      "name": "Proficient in",
       "keywords": [
-        "C++",
+        "C++"
+      ]
+    },
+    {
+      "name": "Familiar  in",
+      "keywords": [
         "C#",
         "Java",
         "Unity",
@@ -84,12 +88,11 @@
       ]
     },
     {
-      "name": "Web Development",
-      "level": "Prior experience",
+      "name": "Prior experience in",
       "keywords": [
         "JavaScript",
         "HTML",
-        "Scss"
+        "SCSS"
       ]
     }
   ],
@@ -105,10 +108,10 @@
   ],
   "interests": [
     {
-      "name": "Intensive sports",
+      "name": "Intensive Sports",
       "keywords": [
-        "Squash",
-        "Indoor climbing"
+        "squash",
+        "indoor climbing"
       ]
     }
   ]

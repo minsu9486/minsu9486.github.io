@@ -14,9 +14,6 @@ platform: "Android & iOS mobile"
 skills: "C++, Java"
 role: "Client-side engineer"
 responsibilities: "Android & localization with LINE Corp."
-toc: true
-toc_label: "Table of Contents"
-toc_sticky: true
 ---
 
 | |

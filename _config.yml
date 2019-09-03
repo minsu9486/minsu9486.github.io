@@ -165,6 +165,7 @@ footer:
 
 
 # Reading Files
+github: [metadata]
 include:
   - .htaccess
   - _pages
@@ -201,7 +202,6 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -340,6 +340,8 @@ defaults:
       sidebar:
         title: "P O R T F O L I O"
         nav: "portfolio"
+      toc: true
+      toc_sticky: true
   # _scripts
   - scope:
       path: ""

@@ -37,7 +37,7 @@ Hi! I’m Minsu, a curious software engineer who is always crawling on the progr
 Although I have over 2 years of professional experience in IT industry, I'm currently a full-time student in Computer Science in Real-Time Interactive Simulation at Digipen. During my college life with loads of assignments, I was really wondering about the authentic life of a game developer in the real industry. So I postponed my studies and began to work at a small mobile gaming company as a client-side programmer. In the next year, I answered the call of duty from my country and completed my military service at Republic of Korea Cyber Command as a Network Security Analyst.
 {: style="text-align: justify;"}
 
-And... HERE I AM, back to school, to strengthen my fundamental knowledge on computer science!
+And... Here I am, BACK TO SCHOOL, to strengthen my fundamental knowledge on computer science!
 {: style="text-align: justify;"}
 
 {% include feature_row id="separate_line" %}
