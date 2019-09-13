@@ -18,7 +18,7 @@ responsibilities: "Animation tool for [Adaptation](/adaptation)"
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Game Description
+### Tool Description
 <figure class="half">
 	<img src="/assets/images/anitool_demo.gif">
 	<img src="/assets/images/anitool_exported_info.png">
