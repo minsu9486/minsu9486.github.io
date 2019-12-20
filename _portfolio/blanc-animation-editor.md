@@ -10,7 +10,7 @@ company: "Student Project"
 platform: "Windows PC"
 skills: "C#, Linear algebra"
 role: "Tool engineer"
-responsibilities: "Animation tool for [Adaptation](/adaptation)"
+responsibilities: "Animation tool for [Adaptation](/portfolio/adaptation)"
 ---
 
 | |
