@@ -1,5 +1,5 @@
 # My Personnel Website
-This is my personal website called Blue Ocean! It includes descriptions of my projects, blog, and résumé.
+This is my personal website called Blue Ocean! It includes descriptions of my projects, and résumé.
 
 
 # Used External Libraries 
