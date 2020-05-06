@@ -20,7 +20,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--success"
   - image_path: /assets/images/home_resume.png
-    title: "R é s u m é"
+    title: "R e s u m e"
     excerpt: "One sheet of summarized report on *Minsu*."
     url: "/resume"
     btn_label: "Know More"

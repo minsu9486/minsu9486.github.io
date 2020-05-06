@@ -6,7 +6,7 @@ excerpt: "A 2D survive game in which two players should cooperate and evolve on 
 header:
   image: /assets/images/adap_main_wide.png
   teaser: /assets/images/adap_char.png
-company: "Student Project"
+company: "Academic project"
 engine: "Full-custom engine"
 platform: "Windows PC"
 skills: "C++"
@@ -26,21 +26,6 @@ responsibilities: "Terrain & level design"
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Game Description
-<figure class="third">
-	<img src="/assets/images/adap_ingame_1.jpg">
-	<img src="/assets/images/adap_ingame_2.PNG">
-	<img src="/assets/images/adap_ingame_3.jpg">
-	<figcaption>It's an action based survival game featuring upgrading characters by attaching
-multiple unique parts. Two players can control each character on the open-world stage. They should cooperate to survive and collect resources so that the players can attach unique parts with own skills.</figcaption>
-</figure>
-
-### Tech Description
-<figure>
-	<img src="/assets/images/adap_tech.png">
-	<figcaption>All moving objects are allocated a 3x3 box which centers around the object itself and has data such as a terrain type or currently which objects are. Therefore, moving objects especially a player character don't need to check other objects which is outside of their 3x3 box. This technique allows to reduce lots of computation time on collision detection and other interaction check.</figcaption>
-</figure>
-
 ### Assigned Tasks 
 <div class="markdown_list">
   <ul>
@@ -56,3 +41,18 @@ multiple unique parts. Two players can control each character on the open-world 
     </li>
   </ul>
 </div>
+
+### Game Description
+<figure class="third">
+	<img src="/assets/images/adap_ingame_1.jpg">
+	<img src="/assets/images/adap_ingame_2.PNG">
+	<img src="/assets/images/adap_ingame_3.jpg">
+	<figcaption>It's an action based survival game featuring upgrading characters by attaching
+multiple unique parts. Two players can control each character on the open-world stage. They should cooperate to survive and collect resources so that the players can attach unique parts with own skills.</figcaption>
+</figure>
+
+### Tech Description
+<figure>
+	<img src="/assets/images/adap_tech.png">
+	<figcaption>All moving objects are allocated a 3x3 box which centers around the object itself and has data such as a terrain type or currently which objects are. Therefore, moving objects especially a player character don't need to check other objects which is outside of their 3x3 box. This technique allows to reduce lots of computation time on collision detection and other interaction check.</figcaption>
+</figure>

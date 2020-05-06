@@ -6,7 +6,7 @@ excerpt: "A 2D skeletal animation tool for my other team project, Adaptation."
 header:
   image: /assets/images/anitool_whole_wide.png
   teaser: /assets/images/anitool_run_play.gif
-company: "Student Project"
+company: "Academic project"
 platform: "Windows PC"
 skills: "C#, Linear algebra"
 role: "Tool engineer"
@@ -17,6 +17,11 @@ responsibilities: "Animation tool for [Adaptation](/portfolio/adaptation)"
 | **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
+
+### Assigned Tasks
+ - A save & load system
+ - A natural moving bone system which automatically follow their parent
+ - ~~A texture preview system~~ ("Test-Box" in the image)
 
 ### Tool Description
 <figure class="half">
@@ -30,8 +35,3 @@ responsibilities: "Animation tool for [Adaptation](/portfolio/adaptation)"
 	<img src="/assets/images/anitool_ingame.gif">
 	<figcaption>The maximum frame is eight, and each frame is controlled by different time span. Using these elements, objects can express various and complex motions in the game.</figcaption>
 </figure>
-
-### Assigned Tasks
- - A save & load system
- - A natural moving bone system which automatically follow their parent
- - ~~A texture preview system~~ ("Test-Box" in the image)

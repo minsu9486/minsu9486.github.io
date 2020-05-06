@@ -21,6 +21,8 @@ portfolio:
         url: /portfolio/jojo/
   - title: Others
     children:
+      - title: "Photorealistic Rendering"
+        url: /portfolio/photorealistic-rendering/
       - title: "Adaptation"
         url: /portfolio/adaptation/
       - title: "Blanc Animation Editor"

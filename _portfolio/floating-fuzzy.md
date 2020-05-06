@@ -20,6 +20,16 @@ responsibilities: "Gameplay, UI, & game design"
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
+### Assigned Tasks
+ - Implemented a randomized obstacle generator: color, size, speed, and sound pitch
+ - Developed an automatic level controller based on a player’s attribute
+ - Cooperated in designing the game and the level of difficulty
+
+### Code
+ - [EnemyManager.cs](/scripts/ff-enemy-manager.cs/) manages 3 types of objects with randomized attributes.
+ - [PlayerMovement.cs](/scripts/ff-player-collision.cs/) controls mobile and PC inputs and related action.
+ - [PlayerCollision.cs](/scripts/ff-player-movement.cs/) deals with collision response and each attributes.
+
 ### Game Description
 <figure class="third">
 	<img src="/assets/images/fuzzy_tutorial.jpg">
@@ -33,16 +43,6 @@ responsibilities: "Gameplay, UI, & game design"
 	<img src="/assets/images/fuzzy_rank.jpg">
 	<figcaption>If the player's fuzz is eaten by a bigger one or is pumped into a triangular one, the fuzz will be dead. The score will be recorded in the developer's server with the ranking list as shown above.</figcaption>
 </figure>
-
-### Assigned Tasks
- - Implemented a randomized obstacle generator: color, size, speed, and sound pitch
- - Developed an automatic level controller based on a player’s attribute
- - Cooperated in designing the game and the level of difficulty
-
-### Code
- - [EnemyManager.cs](/scripts/ff-enemy-manager.cs/) manages 3 types of objects with randomized attributes.
- - [PlayerMovement.cs](/scripts/ff-player-collision.cs/) controls mobile and PC inputs and related action.
- - [PlayerCollision.cs](/scripts/ff-player-movement.cs/) deals with collision response and each attributes.
 
 ### [App Info Archive](https://apkpure.com/floating-fuzzy/com.MangoCompany.FloatingFuzzy)
 {: style="text-align: center;"}

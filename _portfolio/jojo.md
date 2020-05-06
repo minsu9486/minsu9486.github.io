@@ -21,6 +21,12 @@ responsibilities: "Android & localization with LINE Corp."
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
+### Assigned Tasks
+ - Implemented a compatible process between Java and C++ using [JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/)
+ - 3 languages (English, Thai, Taiwanese) supporting system with UTF-16 issue
+ - Adding [LINE SDK](https://developers.line.biz/en/) with related social contents and UI
+ - Maintaing the live service
+
 ### Game Description
 <figure class="third">
 	<img src="/assets/images/jojo_desc_1.jpeg">
@@ -28,13 +34,6 @@ responsibilities: "Android & localization with LINE Corp."
 	<img src="/assets/images/jojo_desc_3.jpeg">
 	<figcaption>This is a 2D top-down shooter in Android/iOS, where combat against enemies is done using Medal, particularly "Striker" Medals, each of which represents one character and their ability set.</figcaption>
 </figure>
-
-
-### Assigned Tasks
- - Implemented a compatible process between Java and C++ using [JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/)
- - 3 languages (English, Thai, Taiwanese) supporting system with UTF-16 issue
- - Adding [LINE SDK](https://developers.line.biz/en/) with related social contents and UI
- - Maintaing the live service
 
 ### Code
  - A compatible process between C++ and Java
