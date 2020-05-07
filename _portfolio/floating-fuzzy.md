@@ -25,7 +25,7 @@ responsibilities: "Gameplay, UI, & game design"
  - Developed an automatic level controller based on a player’s attribute
  - Cooperated in designing the game and the level of difficulty
 
-### Code
+### Sorce Code
  - [EnemyManager.cs](/scripts/ff-enemy-manager.cs/) manages 3 types of objects with randomized attributes.
  - [PlayerMovement.cs](/scripts/ff-player-collision.cs/) controls mobile and PC inputs and related action.
  - [PlayerCollision.cs](/scripts/ff-player-movement.cs/) deals with collision response and each attributes.

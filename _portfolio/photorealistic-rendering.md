@@ -5,6 +5,7 @@ date: 2019-11-01
 excerpt: "Graphics pipeline for photorealistic rendering in interactive simulations"
 header:
   image: /assets/images/pthotoRen_main_wide.png
+  caption: "A sphere with nine lights and environment mapping"
   teaser: /assets/images/pthotoRen_dynamicReflec_rabbit.gif
 company: "Academic project"
 engine: "Custom engine based on GLFW"
@@ -64,7 +65,7 @@ responsibilities: "Graphics pipeline for loading and rendering"
 <figure class="half">
 	<img src="/assets/images/pthotoRen_3_env_reflec_cub.gif">
 	<img src="/assets/images/pthotoRen_3_env_combi_4spheres.gif">
-	<figcaption>1) A cup with environment map. 2) A complex object with red, blue, green balls.</figcaption>
+	<figcaption>1) A cup with environment map. 2) A complex object with red, blue, green lights.</figcaption>
 </figure>
 
 ### Used External Libraries

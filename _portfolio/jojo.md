@@ -35,7 +35,7 @@ responsibilities: "Android & localization with LINE Corp."
 	<figcaption>This is a 2D top-down shooter in Android/iOS, where combat against enemies is done using Medal, particularly "Striker" Medals, each of which represents one character and their ability set.</figcaption>
 </figure>
 
-### Code
+### Sorce Code
  - A compatible process between C++ and Java
    - [LineTranslator.h](/scripts/jj-line-translator.h/)
    - [LineTranslator.cpp](/scripts/jj-line-translator.cpp/)

@@ -21,6 +21,8 @@ portfolio:
         url: /portfolio/jojo/
   - title: Others
     children:
+      - title: "Spatial Algorithms in 3D"
+        url: /portfolio/spatial-algorithms/
       - title: "Photorealistic Rendering"
         url: /portfolio/photorealistic-rendering/
       - title: "Adaptation"
