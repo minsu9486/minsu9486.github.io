@@ -14,16 +14,16 @@ responsibilities: "Animation tool for [Adaptation](/portfolio/adaptation)"
 ---
 
 | |
-| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Assigned Tasks
+## Assigned Tasks
  - A save & load system
  - A natural moving bone system which automatically follow their parent
  - ~~A texture preview system~~ ("Test-Box" in the image)
 
-### Tool Description
+## Tool Description
 <figure class="half">
 	<img src="/assets/images/anitool_demo.gif">
 	<img src="/assets/images/anitool_exported_info.png">

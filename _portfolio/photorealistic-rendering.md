@@ -15,24 +15,17 @@ role: "Graphics engineer"
 responsibilities: "Graphics pipeline for loading and rendering"
 ---
 
-<style>
-.markdown_list ul { margin-bottom:10px; list-style-position: outside; }
-.hover_img { position:relative; }
-.hover_img span { position:absolute; display:none; }
-.hover_img:hover span { display:block; width:25vw; min-width:250px;}
-</style>
-
 | |
-| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Features
+## Features
  - Loading and displaying geometry using OpenGL
  - Implementing phong illumination model
  - Dynamic reflection and refraction with environment mapping
 
-#### Loading & Displaying Geometry
+### Loading & Displaying Geometry
 <figure class="third">
 	<img src="/assets/images/pthotoRen_1_LDG_objfile.png">
 	<img src="/assets/images/pthotoRen_1_LDG_rhino.png">
@@ -41,7 +34,7 @@ responsibilities: "Graphics pipeline for loading and rendering"
 </figure>
 
 
-#### Phong Illumination Model
+### Phong Illumination Model
 <figure class="third">
 	<img src="/assets/images/pthotoRen_2_illum_spot.png">
 	<img src="/assets/images/pthotoRen_2_illum_direc.png">
@@ -54,21 +47,21 @@ responsibilities: "Graphics pipeline for loading and rendering"
   <figcaption>Dynamic interaction is viable with the following controllable attributes: shader types (phong lighting, phong shading, blinn shading), the three light types, mapping types (spherical, cylindrical, planar), mapping ways (CPU, GPU), mapping entities (positin, normal), number of lights, etc.</figcaption>
 </figure>
 
-#### Dynamic Reflection & Refraction
+### Dynamic Reflection & Refraction
 <figure class="third">
 	<img src="/assets/images/pthotoRen_3_env_sphe_comb_air.png">
 	<img src="/assets/images/pthotoRen_3_env_sphe_refrac_air.png">
 	<img src="/assets/images/pthotoRen_3_env_sphe_refrac_water.png">
-  <figcaption>1) Reflection and refraction with Fresnel effect. 2) Refraction with air incidence. 3) Refraction with water incidence.</figcaption>
+  <figcaption>1) Reflection and refraction with Fresnel effect. &emsp;&emsp;&emsp;&emsp; 2) Refraction with air incidence. &emsp;&emsp;&emsp;&emsp; 3) Refraction with water incidence.</figcaption>
 </figure>
 
 <figure class="half">
 	<img src="/assets/images/pthotoRen_3_env_reflec_cub.gif">
 	<img src="/assets/images/pthotoRen_3_env_combi_4spheres.gif">
-	<figcaption>1) A cup with environment map. 2) A complex object with red, blue, green lights.</figcaption>
+	<figcaption>1) A cup with environment map. &emsp;&emsp;&emsp;&emsp; 2) A complex object with red, blue, green lights.</figcaption>
 </figure>
 
-### Used External Libraries
+## Used External Libraries
  - GLEW: The OpenGL Extension Wrangler Library
  - GLFW: An OpenGL library
  - GLM: C++ mathematics library for OpenGL Shading Language
@@ -76,7 +69,7 @@ responsibilities: "Graphics pipeline for loading and rendering"
  - STB: Public domain libraries for C/C++
  - ImGui: Bloat-free Immediate Mode Graphical User interface for C++
 
-### References
+## References
  - learnopengl.com
  - OpenGL Programming Guide: The Official Guide to Learning OpenGL
  - OpenGL SuperBible: Comprehensive Tutorial and Reference

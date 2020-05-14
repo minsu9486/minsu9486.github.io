@@ -2,7 +2,7 @@
 title: "Adaptation"
 permalink: /portfolio/adaptation/
 date: 2015-03-01
-excerpt: "A 2D survive game in which two players should cooperate and evolve on the open world"
+excerpt: "It's a 2D survive game project with four other members. I worked on randomized terrain generator and opimaized collision detection."
 header:
   image: /assets/images/adap_main_wide.png
   teaser: /assets/images/adap_char.png
@@ -22,11 +22,11 @@ responsibilities: "Terrain & level design"
 </style>
 
 | |
-| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Assigned Tasks 
+## Assigned Tasks 
 <div class="markdown_list">
   <ul>
     <li>A tile-based platform which can be destroyed and has no size limits</li>
@@ -42,7 +42,7 @@ responsibilities: "Terrain & level design"
   </ul>
 </div>
 
-### Game Description
+## Game Description
 <figure class="third">
 	<img src="/assets/images/adap_ingame_1.jpg">
 	<img src="/assets/images/adap_ingame_2.PNG">
@@ -51,7 +51,7 @@ responsibilities: "Terrain & level design"
 multiple unique parts. Two players can control each character on the open-world stage. They should cooperate to survive and collect resources so that the players can attach unique parts with own skills.</figcaption>
 </figure>
 
-### Tech Description
+## Tech Description
 <figure>
 	<img src="/assets/images/adap_tech.png">
 	<figcaption>All moving objects are allocated a 3x3 box which centers around the object itself and has data such as a terrain type or currently which objects are. Therefore, moving objects especially a player character don't need to check other objects which is outside of their 3x3 box. This technique allows to reduce lots of computation time on collision detection and other interaction check.</figcaption>

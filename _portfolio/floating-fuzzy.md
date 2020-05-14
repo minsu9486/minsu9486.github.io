@@ -16,21 +16,21 @@ responsibilities: "Gameplay, UI, & game design"
 ---
 
 | |
-| **company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
+| **Company**<br>&nbsp;&nbsp;&nbsp;{{page.company}}								|||**Engine**<br>&nbsp;&nbsp;&nbsp;{{page.engine}}
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-### Assigned Tasks
+## Assigned Tasks
  - Implemented a randomized obstacle generator: color, size, speed, and sound pitch
  - Developed an automatic level controller based on a player’s attribute
  - Cooperated in designing the game and the level of difficulty
 
-### Sorce Code
+## Sorce Code
  - [EnemyManager.cs](/scripts/ff-enemy-manager.cs/) manages 3 types of objects with randomized attributes.
  - [PlayerMovement.cs](/scripts/ff-player-collision.cs/) controls mobile and PC inputs and related action.
  - [PlayerCollision.cs](/scripts/ff-player-movement.cs/) deals with collision response and each attributes.
 
-### Game Description
+## Game Description
 <figure class="third">
 	<img src="/assets/images/fuzzy_tutorial.jpg">
 	<img src="/assets/images/fuzzy_ingame_1.jpg">
@@ -44,5 +44,5 @@ responsibilities: "Gameplay, UI, & game design"
 	<figcaption>If the player's fuzz is eaten by a bigger one or is pumped into a triangular one, the fuzz will be dead. The score will be recorded in the developer's server with the ranking list as shown above.</figcaption>
 </figure>
 
-### [App Info Archive](https://apkpure.com/floating-fuzzy/com.MangoCompany.FloatingFuzzy)
+## [App Info Archive](https://apkpure.com/floating-fuzzy/com.MangoCompany.FloatingFuzzy)
 {: style="text-align: center;"}
