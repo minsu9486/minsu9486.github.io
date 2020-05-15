@@ -2,7 +2,7 @@
 title: "Robo Cat, Multiplayer Game"
 permalink: /portfolio/robo-cat-multiplayer-game/
 date: 2020-04-10
-excerpt: "This project is mainly focused on latency handling and three-tier architecture"
+excerpt: "This project is mainly focused on <u>latency handling</u> and <u>three-tier architecture</u>."
 header:
   image: /assets/images/roboCat_wide_image.png
   caption: "Used 3rd-party services in this project"

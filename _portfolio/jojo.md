@@ -22,7 +22,7 @@ responsibilities: "Android & localization with LINE Corp."
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ## Assigned Tasks
- - Implemented a compatible process between Java and C++ using [JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/)
+ - A compatible process between Java and C++ using [JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/)
  - 3 languages (English, Thai, Taiwanese) supporting system with UTF-16 issue
  - Adding [LINE SDK](https://developers.line.biz/en/) with related social contents and UI
  - Maintaing the live service
