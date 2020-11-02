@@ -2,16 +2,16 @@
 title: "Robo Cat, Multiplayer Game"
 permalink: /portfolio/robo-cat-multiplayer-game/
 date: 2020-04-10
-excerpt: "This project is mainly focused on <u>latency handling</u> and <u>three-tier architecture</u>."
+excerpt: "This project is mainly focused on <b>latency handling</b> and <b>three-tier architecture</b>."
 header:
   image: /assets/images/roboCat_wide_image.png
   caption: "Used 3rd-party services in this project"
   teaser: /assets/images/roboCat_teaser.png
-company: "Academic project"
+company: "Academic Project"
 engine: "SDL from [*Multiplayer Game Programming*](https://www.amazon.com/Multiplayer-Game-Programming-Architecting-Networked-ebook/dp/B0189RXWJQ)"
 platform: "Windows & Linux"
 skills: "Amazon EC2, C++, Node.js"
-role: "Server engineer"
+role: "Server Engineer"
 responsibilities: "HTTP user service, latency handling, network security"
 ---
 

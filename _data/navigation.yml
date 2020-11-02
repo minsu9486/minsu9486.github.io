@@ -21,6 +21,8 @@ portfolio:
         url: /portfolio/jojo/
   - title: Others
     children:
+      - title: "VR Mesh Cutting"
+        url: /portfolio/vr-mesh-cutting/
       - title: "Toy Tanks"
         url: /portfolio/toy-tanks/
       - title: "Robo Cat, Multiplayer Game"
@@ -33,5 +35,5 @@ portfolio:
         url: /portfolio/photorealistic-rendering/
       - title: "Adaptation"
         url: /portfolio/adaptation/
-      - title: "Blanc Animation Editor"
+      - title: "Skeletal Animation Editor"
         url: /portfolio/blanc-animator/

@@ -2,16 +2,16 @@
 title: "Adaptation"
 permalink: /portfolio/adaptation/
 date: 2015-03-01
-excerpt: "This is a 2D survive game that I worked with four other members. I focused on <u>randomized terrain generator</u> and <u>opimaized collision detection</u>."
+excerpt: "This is a 2D survive game that I worked with four other members. I focused on <b>randomized terrain generator</b> and <b>opimaized collision detection</b>."
 header:
   image: /assets/images/adap_main_wide.png
   teaser: /assets/images/adap_char.png
-company: "Academic project"
-engine: "Custom engine"
+company: "Academic Project"
+engine: "Custom Engine"
 platform: "Windows PC"
 skills: "C++"
-role: "Gameplay & tool engineer"
-responsibilities: "Terrain & level design"
+role: "Gameplay & Ttool Engineer"
+responsibilities: "Terrain & Level Design"
 ---
 
 <style>

@@ -10,10 +10,10 @@ header:
 professional: true
 company: "[Funigloo](http://www.funigloo.com/)"
 engine: "Cocos2d-x"
-platform: "Android & iOS mobile"
+platform: "Android & iOS Mobile"
 skills: "C++, Java"
-role: "Client-side engineer"
-responsibilities: "Android & localization with LINE Corp."
+role: "Client Engineer"
+responsibilities: "Android & Localization with LINE Corp."
 ---
 
 | |

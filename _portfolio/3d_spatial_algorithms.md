@@ -7,11 +7,11 @@ header:
   image: /assets/images/spatialAlg_main_wide.png
   caption: "A sphere with second depth of octree"
   teaser: /assets/images/spatialAlg_teaser.png
-company: "Academic project"
+company: "Academic Project"
 engine: "Custom engine based on GLFW"
 platform: "Windows PC"
-skills: "C++, OpenGL, GLSL, Linear algebra"
-role: "Graphics engineer"
+skills: "C++, OpenGL, GLSL, Linear Algebra"
+role: "Graphics Engineer"
 responsibilities: "Implementing robust and flexible spatial algorithms"
 ---
 

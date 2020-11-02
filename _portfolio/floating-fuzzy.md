@@ -9,10 +9,10 @@ header:
 professional: true
 company: "Mango Kong"
 engine: "Unity"
-platform: "Android mobile"
+platform: "Android Mobile"
 skills: "C#"
-role: "Client-side engineer"
-responsibilities: "Gameplay, UI, & game design"
+role: "Gameplay Engineer"
+responsibilities: "Gameplay, UI, & Game Design"
 ---
 
 | |

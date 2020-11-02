@@ -34,10 +34,10 @@ feature_row_right:
 Hi! I’m Minsu, a curious software engineer who is always crawling on the programming world to satisfy my curiosity. The hunger for new knowledge has been my fuel to keep on working hard since I first said hello to the world.
 {: style="text-align: justify;"}
   
-As my portfolio shows, I have been in various positions such as tool, UI, engine, graphics, and even network. I always want to experience varied environments. This mindset allows me to keep pursuing various skills. I hope one day I can be a person who can be harmonized in technical discord.
+As my portfolio shows, I have been in various positions such as tools, UI, engine, graphics, VR, and even network. I always want to experience varied environments. This mindset allows me to keep pursuing various skills and being creative. I hope one day I can be a person who can harmonize in technical discord.
 {: style="text-align: justify;"}
 
-Although I have over 2 years of professional experience in IT industry, I'm currently a full-time student in *Computer Science in Real-Time Interactive Simulation* at Digipen. At the time of my previous college life, I was really wondering about the authentic life of a game developer in the real industry. So I postponed my studies and began to work at a small mobile gaming company as a client-side programmer. In the next year, I answered the call of duty from my country and completed my military service at Republic of Korea Cyber Command as a Network Security Analyst.
+Although I have over 2 years of work experience in IT industry, I'm currently a full-time student in *Computer Science in Real-Time Interactive Simulation* at Digipen. At the time of my previous college life, I was really wondering about the authentic life of a game developer in the real industry. So I postponed my studies and began to work at a small mobile gaming company as a client-side programmer. In the next year, I answered the call of duty from my country and completed my military service at Republic of Korea Cyber Command as a Network Security Analyst.
 {: style="text-align: justify;"}
 
 {% include feature_row id="separate_line" %}

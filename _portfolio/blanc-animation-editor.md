@@ -1,15 +1,15 @@
 ---
-title: "Blanc Animation Editor"
+title: "Skeletal Animation Editor"
 permalink: /portfolio/blanc-animator/
 date: 2014-09-01
 excerpt: "A 2D skeletal animation tool for my other team project, Adaptation."
 header:
   image: /assets/images/anitool_whole_wide.png
   teaser: /assets/images/anitool_run_play.gif
-company: "Academic project"
+company: "Academic Project"
 platform: "Windows PC"
-skills: "C#, Linear algebra"
-role: "Tool engineer"
+skills: "C#, Linear Algebra"
+role: "Tool Engineer"
 responsibilities: "Animation tool for [Adaptation](/portfolio/adaptation)"
 ---
 

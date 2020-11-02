@@ -1,6 +1,6 @@
 ---
 title: "LanguageManager.cpp"
-permalink: /scripts/ff-language-manager.cpp/
+permalink: /scripts/jj-language-manager.cpp/
 layout: splash
 excerpt: "LINE: JoJo's Bizarre Adventure SS"
 ---

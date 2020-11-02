@@ -7,11 +7,11 @@ header:
   image: /assets/images/pthotoRen_main_wide.png
   caption: "A sphere with nine lights and environment mapping"
   teaser: /assets/images/pthotoRen_dynamicReflec_rabbit.gif
-company: "Academic project"
+company: "Academic Project"
 engine: "Custom engine based on GLFW"
 platform: "Windows PC"
 skills: "C++, OpenGL, GLSL"
-role: "Graphics engineer"
+role: "Graphics Engineer"
 responsibilities: "Graphics pipeline for loading and rendering"
 ---
 

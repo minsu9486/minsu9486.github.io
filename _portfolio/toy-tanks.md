@@ -2,15 +2,15 @@
 title: "Toy Tanks"
 permalink: /portfolio/toy-tanks/
 date: 2020-04-15
-excerpt: "This is a 3D shooting game that I worked with five other members. I mainly focused on <u>multi-gamepad input system</u> for four players and <u>object motion</u> based on Bullet Physics."
+excerpt: "A 3D shooting game that I worked with five other members. I mainly focused on <b>multi-gamepad input system</b> for four players and <b>object motion</b> based on Bullet Physics."
 header:
   image: /assets/images/toyTanks_main_wide.png
   teaser: /assets/images/toyTanks_teaser.gif
-company: "Academic project"
-engine: "Custom engine"
+company: "Academic Project"
+engine: "Custom Engine"
 platform: "Windows PC"
 skills: "C++, Win32, XInput"
-role: "Engine & gameplay engineer"
+role: "Engine & Gameplay Engineer"
 responsibilities: "Multi-gamepad input system & object motion"
 ---
 

@@ -7,10 +7,10 @@ header:
   image: /assets/images/lowDebug_main_wide.png
   caption: "Low-level programming is too hard. :("
   teaser: /assets/images/lowDebug_teaser.png
-company: "Academic project"
+company: "Academic Project"
 platform: "Windows PC"
 skills: "C++"
-role: "Tool engineer"
+role: "Tool Engineer"
 responsibilities: "Implementing easy-interpolating debuggers"
 ---
 
