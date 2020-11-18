@@ -20,8 +20,8 @@ responsibilities: "Mesh Cutting"
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ## Features
- - **Mesh cutting** by a blade which has width
- - **Concave** decomposition
+ - Mesh cutting
+ - Concave decomposition
  - Optimization for real-time performance
 
 ### Convex Cutting
@@ -55,3 +55,4 @@ responsibilities: "Mesh Cutting"
  - [Concave Decomposition](https://gamedev.stackexchange.com/questions/53142/decomposing-a-concave-mesh-into-a-set-of-convex-meshes)
  - [Constructive Solid Geometry](https://github.com/evanw/csg.js)
  - [Addaptive Virtual Node Algorithm](https://www.math.ucla.edu/~jteran/papers/WJST14.pdf)
+ - [Chainsaw with Voxel Wood](https://twitter.com/pushmatrix/status/1328710719269990401)
