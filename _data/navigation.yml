@@ -23,6 +23,8 @@ portfolio:
     children:
       - title: "VR Mesh Cutting"
         url: /portfolio/vr-mesh-cutting/
+      - title: "Hide and Seek"
+        url: /portfolio/ai-game-tilemap/
       - title: "Toy Tanks"
         url: /portfolio/toy-tanks/
       - title: "Robo Cat, Multiplayer Game"
