@@ -102,7 +102,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links:
-    - "https://www.instagram.com/0000ff_u1f419"
+    - "https://www.instagram.com/u0034_u1f577"
     - "https://www.linkedin.com/in/mean-kang"
 
 
@@ -135,7 +135,7 @@ author:
       url: "https://github.com/minsu9486"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/0000ff_u1f419/"
+      url: "https://www.instagram.com/u0034_u1f577/"
       
 
 # Site Footer
@@ -161,7 +161,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/0000ff_u1f419/"
+      url: "https://www.instagram.com/u0034_u1f577/"
 
 
 # Reading Files
