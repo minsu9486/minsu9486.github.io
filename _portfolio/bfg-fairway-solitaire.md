@@ -45,4 +45,4 @@ responsibilities: "Android, Gameplay, Server, and etc."
 ## References
  - [Fairway Google Play Store](https://play.google.com/store/apps/details?id=com.bigfishgames.fairwaysolitaireuniversalf2pgoogle&hl=en_US&gl=US)
  - [Fairway Official Site](https://www.bigfishgames.com/us/en/company/fairway-solitaire.html)
-{: style="text-align: center;"}
+ 
