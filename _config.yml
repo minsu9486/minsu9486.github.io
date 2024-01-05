@@ -119,7 +119,7 @@ author:
   name             : "Minsu Kang"
   avatar           : "/assets/images/avatar.png"
   bio              : "Programming should be conducted by a warm heart, not a cold brain."
-  location         : "Redmond, WA"
+  location         : "Seattle, WA"
   email            : "/contact/"
   # Brand Icons: fontawesome.com/v4.7.0/icons/#brand
   # Icons Color: <site root>\_sass\minimal-mistakes\_utilities.scss 
@@ -135,7 +135,7 @@ author:
       url: "https://github.com/minsu9486"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/u0034_u1f577/"
+      url: "https://www.instagram.com/ffff00_u1f344_s/"
       
 
 # Site Footer
