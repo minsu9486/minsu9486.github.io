@@ -24,6 +24,7 @@ responsibilities: "Graphics pipeline for loading and rendering"
  - Loading and displaying geometry using OpenGL
  - Implementing phong illumination model
  - Dynamic reflection and refraction with environment mapping
+ - Hybrid rendering: Deferred + forward shading
 
 ### Loading & Displaying Geometry
 <figure class="third">
@@ -59,6 +60,12 @@ responsibilities: "Graphics pipeline for loading and rendering"
 	<img src="/assets/images/pthotoRen_3_env_reflec_cub.gif">
 	<img src="/assets/images/pthotoRen_3_env_combi_4spheres.gif">
 	<figcaption>1) A cup with environment map. &emsp;&emsp;&emsp;&emsp; 2) A complex object with red, blue, green lights.</figcaption>
+</figure>
+
+### Hybrid Rendering
+<figure>
+  <img src="/assets/images/spatialAlg_banny_def_all.png">
+  <figcaption>It defers most of the heavy rendering (like lighting) to a later stage. The final image comes from G-buffer which is a combined data of position, nomals, albedo, and specular. In this project, final objects are rendered in deferred shading, whereas debug information such as position of lights, normal vectors, and bounding volumes are rendered in forward shading.</figcaption>
 </figure>
 
 ## Used External Libraries

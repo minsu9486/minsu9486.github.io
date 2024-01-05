@@ -21,15 +21,8 @@ responsibilities: "Implementing robust and flexible spatial algorithms"
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
 ## Features
- - Hybrid rendering: Deferred + forward shading
  - Bounding volume hierarchies
  - Spatial partitioning: Octree
-
-### Hybrid Rendering
-<figure>
-  <img src="/assets/images/spatialAlg_banny_def_all.png">
-  <figcaption>It defers most of the heavy rendering (like lighting) to a later stage. The final image comes from G-buffer which is a combined data of position, nomals, albedo, and specular. In this project, final objects are rendered in deferred shading, whereas debug information such as position of lights, normal vectors, and bounding volumes are rendered in forward shading.</figcaption>
-</figure>
 
 ### Bounding Volume Hierarchies
 <figure class="third">
