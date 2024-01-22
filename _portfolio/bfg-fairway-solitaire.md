@@ -34,10 +34,8 @@ responsibilities: "Android, Gameplay, Server, and etc."
 </figure>
 
 ## My Other Features
-(WIP)
 
 ### Level Design Tool
-
 <figure>
   <img src="/assets/images/fairwaySolitaire_tool_1.png">
   <figcaption>A level design tool made with WPF</figcaption>
@@ -45,22 +43,41 @@ responsibilities: "Android, Gameplay, Server, and etc."
 
 ### AI Art Assets
 
-<figure class="half">
-	<img src="/assets/images/fairwaySolitaire_McDivot_ref_1">
-	<img src="/assets/images/fairwaySolitaire_McDivot_gen_1.png">
-	<figcaption>McDivot</figcaption>
+#### Character Training
+- Stable Diffusion Dreambooth with Google Colaboratory
+- The Initial Mode: Stable Diffusion 1.5
+- Class: Prairie Dog
+- 5 number of McDivot images were used
+
+<figure>
+  <img src="/assets/images/fairwaySolitaire_McDivot_ref_1.png">
+  <figcaption>McDivot is a main character in Fairway. This is one of five base images</figcaption>
 </figure>
+
+<figure>
+  <img src="/assets/images/fairwaySolitaire_McDivot_gen_1.png">
+  <figcaption>Generated images</figcaption>
+</figure>
+
+#### Background Training
+- Stable Diffusion Dreambooth with Google Colaboratory
+- The Initial Mode: Stable Diffusion 1.5
+- 13 number of Fairway background images were used
 
 <figure class="half">
 	<img src="/assets/images/fairwaySolitaire_beach_ref_1.jpg">
-	<img src="/assets/images/fairwaySolitaire_beach_gen_1.png">
-	<figcaption>Beach</figcaption>
+	<img src="/assets/images/fairwaySolitaire_mountain_ref_1.jpg">
+	<figcaption>Two of thirteen base images</figcaption>
 </figure>
 
-<figure class="half">
-	<img src="/assets/images/fairwaySolitaire_mountain_ref_1.jpg">
-	<img src="/assets/images/fairwaySolitaire_mountain_gen_1_vol.png">
-	<figcaption>Mountain</figcaption>
+<figure>
+  <img src="/assets/images/fairwaySolitaire_beach_gen_1.png">
+  <figcaption>Generated images: beach theme, air balloons</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/fairwaySolitaire_mountain_gen_1_vol.png">
+  <figcaption>Generated images: mountain theme, volcano eruption</figcaption>
 </figure>
 
 ### Simplified Course Generator
