@@ -90,9 +90,9 @@ I believe it needs more images from many different angles to make it better. Tea
 ### ETC.
 - Simplified Course Generator
 - Faster Building System
-    - Deprecated Art Optimization Removal
     - Ancient Android Interal System Updates
-    - Old Script Updates for Apple Silicon Migration
+    - Deprecated Art Optimization Removal
+    - Old Script and Configuration Updates for Apple Silicon Migration
 
 ## References
  - [Fairway Google Play Store](https://play.google.com/store/apps/details?id=com.bigfishgames.fairwaysolitaireuniversalf2pgoogle&hl=en_US&gl=US)
