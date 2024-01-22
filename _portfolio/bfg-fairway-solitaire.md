@@ -6,7 +6,7 @@ excerpt: "A casual card game based on solitaire with a golf theme."
 header:
   image: /assets/images/fairwaySolitaire_main_wide.png
   caption: "[YouTube Link](https://www.youtube.com/watch?v=byKKz8w7CnQ)"
-  teaser: /assets/images/fairwaySolitaire_icon.jpg
+  teaser: /assets/images/fairwaySolitaire_icon.png
 professional: true
 company: "[Big Fish Games](https://www.bigfishgames.com/us/en/pc-games.html)"
 engine: "Customized Cocos2d-JS"
@@ -33,14 +33,37 @@ responsibilities: "Android, Gameplay, Server, and etc."
 	<figcaption>Fairway Solitaire presents players with a modified type of solitaire with a golf theme. In the game, players use golf clubs and playing cards to clear the table.</figcaption>
 </figure>
 
-## Implemented Tools
+## My Other Features
 (WIP)
 
 ### Level Design Tool
 
-### Simplified Course Generator
+<figure>
+  <img src="/assets/images/fairwaySolitaire_tool_1.png">
+  <figcaption>A level design tool made with WPF</figcaption>
+</figure>
 
-## AI Image Developlemt
+### AI Art Assets
+
+<figure class="half">
+	<img src="/assets/images/fairwaySolitaire_McDivot_ref_1">
+	<img src="/assets/images/fairwaySolitaire_McDivot_gen_1.png">
+	<figcaption>McDivot</figcaption>
+</figure>
+
+<figure class="half">
+	<img src="/assets/images/fairwaySolitaire_beach_ref_1.jpg">
+	<img src="/assets/images/fairwaySolitaire_beach_gen_1.png">
+	<figcaption>Beach</figcaption>
+</figure>
+
+<figure class="half">
+	<img src="/assets/images/fairwaySolitaire_mountain_ref_1.jpg">
+	<img src="/assets/images/fairwaySolitaire_mountain_gen_1_vol.png">
+	<figcaption>Mountain</figcaption>
+</figure>
+
+### Simplified Course Generator
 
 ## References
  - [Fairway Google Play Store](https://play.google.com/store/apps/details?id=com.bigfishgames.fairwaysolitaireuniversalf2pgoogle&hl=en_US&gl=US)
