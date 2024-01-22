@@ -36,12 +36,16 @@ responsibilities: "Android, Gameplay, Server, and etc."
 ## My Other Features
 
 ### Level Design Tool
+My team made a new game mode, but it was so painful to position a flag and to set its data. So I made a simple tool for it. It has save/load/export features with many other handy input box to set each course data.
+
 <figure>
   <img src="/assets/images/fairwaySolitaire_tool_1.png">
   <figcaption>A level design tool made with WPF</figcaption>
 </figure>
 
 ### AI Art Assets
+
+My team wanted to see the possibility of using AI Art Assets so that Fairway can have variation of new art assets with low cost if it's viable. As I had a huge interest in the AI world, I investigated Adobe Firefly and Stable Diffusion and treid train/finetune technologies to put the Fairway art style onto generated images.
 
 #### Character Training
 - Stable Diffusion Dreambooth with Google Colaboratory
@@ -59,10 +63,13 @@ responsibilities: "Android, Gameplay, Server, and etc."
   <figcaption>Generated images</figcaption>
 </figure>
 
+I believe it needs more images from many different angles to make it better. Teaching AI a unique character is more difficult than teaching a background.
+
 #### Background Training
 - Stable Diffusion Dreambooth with Google Colaboratory
 - The Initial Mode: Stable Diffusion 1.5
 - 13 number of Fairway background images were used
+- The training was performed with captions in each base image
 
 <figure class="half">
 	<img src="/assets/images/fairwaySolitaire_beach_ref_1.jpg">
