@@ -55,7 +55,7 @@ My team wanted to see the possibility of using AI Art Assets so that Fairway can
 
 <figure>
   <img src="/assets/images/fairwaySolitaire_McDivot_ref_1.png">
-  <figcaption>McDivot is a main character in Fairway. This is one of five base images</figcaption>
+  <figcaption>McDivot is the main character in Fairway. This is one of five base images</figcaption>
 </figure>
 
 <figure>
@@ -87,7 +87,12 @@ I believe it needs more images from many different angles to make it better. Tea
   <figcaption>Generated images: mountain theme, volcano eruption</figcaption>
 </figure>
 
-### Simplified Course Generator
+### ETC.
+- Simplified Course Generator
+- Faster Building System
+- - Deprecated Art Optimization Removal
+- - Ancient Android Interal System Updates
+- - Old Script Updates for Apple Silicon Migration
 
 ## References
  - [Fairway Google Play Store](https://play.google.com/store/apps/details?id=com.bigfishgames.fairwaysolitaireuniversalf2pgoogle&hl=en_US&gl=US)
