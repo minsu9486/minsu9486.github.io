@@ -45,7 +45,7 @@ My team made a new game mode, but it was so painful to position a flag and to se
 
 ### AI Art Assets
 
-My team wanted to see the possibility of using AI Art Assets so that Fairway can have variation of new art assets with low cost if it's viable. As I had a huge interest in the AI world, I investigated Adobe Firefly and Stable Diffusion and treid train/finetune technologies to put the Fairway art style onto generated images.
+My team wanted to see the possibility of using AI Art Assets so that Fairway can have variation of new art assets with low cost if it's viable. As I had a huge interest in the AI world, I investigated Adobe Firefly and Stable Diffusion and tried train/finetune technologies to generate a set of images with the Fairway art style.
 
 #### Character Training
 - Stable Diffusion Dreambooth with Google Colab
@@ -60,10 +60,8 @@ My team wanted to see the possibility of using AI Art Assets so that Fairway can
 
 <figure>
   <img src="/assets/images/fairwaySolitaire_McDivot_gen_1.png">
-  <figcaption>Generated images</figcaption>
+  <figcaption>This is the generated images. I believe it needs more images from many different angles to make it better. Teaching AI a unique character is more difficult than teaching a background.</figcaption>
 </figure>
-
-I believe it needs more images from many different angles to make it better. Teaching AI a unique character is more difficult than teaching a background.
 
 #### Background Training
 - Stable Diffusion Dreambooth with Google Colab
@@ -88,8 +86,8 @@ I believe it needs more images from many different angles to make it better. Tea
 </figure>
 
 ### ETC.
-- Simplified Course Generator
-- Faster Building System
+- Simplifyed a course generator, decoupling from external resources
+- Made a faster building system on Android
     - Ancient Android internal System Updates
     - Deprecated Art Optimization Removal
     - Old Script/Configuration Updates for Apple Silicon Migration
