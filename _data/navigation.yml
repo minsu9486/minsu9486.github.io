@@ -15,6 +15,8 @@ main:
 portfolio:
   - title: Professional
     children:
+      - title: "Fairway Solitaire"
+        url: /portfolio/bfg-fairway-solitaire/
       - title: "Floating Fuzzy"
         url: /portfolio/floating-fuzzy/
       - title: "JoJo's Bizarre Adventure"
