@@ -23,6 +23,8 @@ portfolio:
         url: /portfolio/jojo/
   - title: Others
     children:
+      - title: "VR Gesture Combo"
+        url: /prtfolio/vr-gesture-combo/
       - title: "Movie Recommender"
         url: /portfolio/aos-movie-reco/
       - title: "VR Mesh Cutting"
