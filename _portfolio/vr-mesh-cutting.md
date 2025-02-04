@@ -1,5 +1,5 @@
 ---
-title: "Sawing in VR"
+title: "VR Mesh Cutting"
 permalink: /portfolio/vr-mesh-cutting/
 date: 2020-10-15
 excerpt: "This is a tech demo in VR environment where objects can be cut as the user does."
