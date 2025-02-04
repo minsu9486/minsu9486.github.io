@@ -20,14 +20,14 @@ skills: "C#, XR Hands"
 
 In VR technology, more apps are utilizing hand tracking as an input method instead of controllers. With the release of Unity's API for setting custom gestures (XR Hands 1.4.0-pre.1), I conducted a simple test to see how it could be applied in a game.
 
-### Simple Repeated Gestures: Finger Gun
+To enhance gesture-based interactions, I implemented a customized combo system using the XR Hands API. In the video, the floating text boxes visualize the recognized combo sequences. When multiple gestures are detected, their corresponding texts appear in the same row, effectively displaying the executed combo in real time.
+
+### Rapid Gestures: Finger Gun
 <figure>
   <img src="/assets/images/vrGestureCombo_finger_gun.gif">
 </figure>
 
 This test involves a repeated combination of two gestures. As shown in the video, there are instances where the gesture input is ignored. This is due to a slight delay in gesture recognition when using the API. Because of this issue, rapidly repeated gestures may not be suitable for gameplay applications.
-
-While it’s not ideal for very fast repetitions, the API can still recognize individual gestures at a reasonable speed. This gave me the idea of creating something akin to Tekken-style combos. I also thought about implementing Naruto-style hand signs, but unfortunately, due to the limitations of hand-tracking technology using cameras, gestures that require both hands to merge together cannot be recognized.
 
 ### Gestures in Sequence: Fireball
 <figure>
