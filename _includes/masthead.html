@@ -22,8 +22,20 @@
             {%- else -%}
               {%- assign url = link.url | relative_url -%}
             {%- endif -%}
-            <li class="masthead__menu-item">
+            <li class="masthead__menu-item{% if link.children %} masthead__menu-item--has-children{% endif %}">
               <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              {%- if link.children -%}
+                <ul class="masthead__submenu">
+                  {%- for child in link.children -%}
+                    {%- if child.url contains '://' -%}
+                      {%- assign child_url = child.url -%}
+                    {%- else -%}
+                      {%- assign child_url = child.url | relative_url -%}
+                    {%- endif -%}
+                    <li><a href="{{ child_url }}">{{ child.title }}</a></li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
             </li>
           {%- endfor -%}
         </ul>

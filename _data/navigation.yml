@@ -4,6 +4,15 @@ main:
      url: /
    - title: "P o r t f o l i o"
      url: /portfolio/
+     children:
+       - title: "Professional Projects"
+         url: /portfolio/#professional-projects
+       - title: "Games & Interactive"
+         url: /portfolio/#games-and-interactive
+       - title: "Graphics & Engines"
+         url: /portfolio/#graphics-and-engines
+       - title: "Tools & Backend"
+         url: /portfolio/#tools-and-backend
 #   - title: "B l o g"
 #     url: /blog/
    - title: "R é s u m é"

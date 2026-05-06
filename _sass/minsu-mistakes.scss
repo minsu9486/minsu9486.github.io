@@ -21,3 +21,70 @@ figure {
     }
   }
 }
+
+/* Hover dropdown for top-nav items that declare `children:` in _data/navigation.yml. */
+.masthead__menu-item--has-children {
+  position: relative;
+
+  > .masthead__submenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin: 0;
+    padding: 5px 0;
+    min-width: 14em;
+    list-style: none;
+    background: $background-color;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease;
+    z-index: 10;
+
+    li {
+      display: block;
+      border-bottom: 1px solid $border-color;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    a {
+      display: block;
+      margin: 0;
+      padding: 8px 16px;
+      font-size: $type-size-5;
+      white-space: nowrap;
+
+      &:hover {
+        color: $masthead-link-color-hover;
+        background: $navicon-link-color-hover;
+      }
+
+      // Suppress the underline-on-hover effect inherited from .visible-links a:before.
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  &:hover > .masthead__submenu,
+  &:focus-within > .masthead__submenu {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* When greedy-nav collapses items into .hidden-links, render children inline. */
+.hidden-links .masthead__menu-item--has-children > .masthead__submenu {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  border: none;
+  box-shadow: none;
+  padding: 0 0 0 1em;
+  min-width: 0;
+}
