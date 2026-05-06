@@ -31,10 +31,10 @@ feature_row_right:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/avatar.png" alt="">
 </figure> 
 
-Hi! I’m Minsu, a curious software engineer who is always crawling on the programming world to satisfy my curiosity. The hunger for new knowledge has been my fuel to keep on working hard since I first said hello to the world.
+Hi! I’m Minsu — a curious software engineer drawn to the parts of computing where systems and people meet in real time. Whether the surface is a VR headset, a phone screen, a custom engine viewport, or a server log, I like building the layers underneath: the rendering, the input, the physics, the protocol, the tool that makes the next thing possible.
 {: style="text-align: justify;"}
   
-I have touched various area such as tools, UI, engine, graphics, VR, and even network. I always want to experience varied environments. This mindset allows me to keep pursuing various skills and being creative. I hope one day I can be a person who can seek harmony in technical  discord.
+Across personal and shipped work I’ve built real‑time rendering pipelines in OpenGL/GLSL, hand‑gesture and mesh‑cutting interactions for VR, custom C++ engines with their own profilers and memory debuggers, computational‑geometry and game‑AI demos, cross‑platform mobile games on Unity and Cocos2d, and the REST backends and live‑service plumbing behind them. C++, C#, Java, JavaScript, Kotlin, Python. The language matters less than the system, and the system matters less than the curiosity that pulls me into the next one.
 {: style="text-align: justify;"}
 
 {% include feature_row id="separate_line" %}
