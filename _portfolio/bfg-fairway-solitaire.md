@@ -23,6 +23,7 @@ responsibilities: "Android, Gameplay, Server, and etc."
 
 ## Assigned Tasks
  - Implementing new game events and maintaining this cross-platform project for Android, Fire OS, and iOS.
+ - Driving cross-cutting initiatives in performance, build tooling, and backend cost.
  - Maintaining/Updating 3rd-party SDKs for Android and Fire OS
  - Supporting the Live Ops team, the server side, and iOS.
 
@@ -33,7 +34,19 @@ responsibilities: "Android, Gameplay, Server, and etc."
 	<figcaption>Fairway Solitaire presents players with a modified type of solitaire with a golf theme. In the game, players use golf clubs and playing cards to clear the table.</figcaption>
 </figure>
 
-## My Other Features
+## Engineering Highlights
+
+### Startup Time Optimization
+The cold-start path was dominated by synchronous audio decoding and third-party SDK initialization on the main thread, leaving players watching a loading screen for nearly eight seconds. I moved audio loading onto an async pipeline so the engine no longer blocks on decoding banks the player won't hear during the splash, and deferred non-critical SDK init (analytics, attribution, ads) until after the first interactive frame. Cold start dropped from **7.8 s to 2.1 s — a ~73% reduction**, directly cutting bounce on cold launches.
+
+### Firebase Realtime Database Cost Reduction
+Telemetry showed Firebase Realtime Database read/write traffic running well above what the actual gameplay loops required, with redundant listeners and chatty syncs accounting for most of the bill. I audited and tightened the access patterns — consolidating duplicate reads, removing dead listeners, and reshaping a handful of high-traffic paths — to land a **22.8% cost reduction** with no change to player-facing behavior.
+
+### Android Build System Enhancement
+The Android build was a long-standing pain point — full builds were slow enough that engineers were context-switching while waiting. I overhauled the Gradle configuration and surrounding shell scripts to land a **~5× build-time improvement**:
+- Modernized the internal Android build tooling and Gradle setup
+- Removed deprecated art-optimization steps that no longer earned their cost
+- Updated scripts and configuration for the Apple Silicon migration so M-series machines build natively
 
 ### Level Design Tool
 My team made a new game mode, but it was so painful to position a flag and to set its data. So I made a simple tool for it. It has save/load/export features with many other handy input box to set each course data.
@@ -86,11 +99,10 @@ My team wanted to see the possibility of using AI Art Assets so that Fairway can
 </figure>
 
 ### ETC.
-- Simplifyed a course generator, decoupling from external resources
-- Made a faster building system on Android
-    - Ancient Android internal System Updates
-    - Deprecated Art Optimization Removal
-    - Old Script/Configuration Updates for Apple Silicon Migration
+ - Automated Theming System: app icon, main menu, social menu
+ - Implemented an auto event scheduler on the server side, replacing a manual process
+ - Simplified a course generator, decoupling it from external resources
+ - and many other things...
 
 ## References
  - [Fairway Google Play Store](https://play.google.com/store/apps/details?id=com.bigfishgames.fairwaysolitaireuniversalf2pgoogle&hl=en_US&gl=US)
