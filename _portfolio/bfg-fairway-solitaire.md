@@ -7,7 +7,7 @@ header:
   image: /assets/images/fairwaySolitaire_main_wide.png
   caption: "[YouTube Link](https://www.youtube.com/watch?v=byKKz8w7CnQ)"
   teaser: /assets/images/fairwaySolitaire_icon.png
-professional: true
+category: professional
 company: "[Big Fish Games](https://www.bigfishgames.com/us/en/pc-games.html)"
 engine: "Customized Cocos2d-JS"
 platform: "Android, Fire OS & iOS Mobiles"

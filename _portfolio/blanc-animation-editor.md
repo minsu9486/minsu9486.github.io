@@ -11,6 +11,7 @@ platform: "Windows PC"
 skills: "C#, Linear Algebra"
 role: "Tool Engineer"
 responsibilities: "Animation tool for [Adaptation](/portfolio/adaptation)"
+category: tools
 ---
 
 | |

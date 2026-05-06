@@ -13,6 +13,7 @@ platform: "Windows PC"
 skills: "C++, OpenGL, GLSL"
 role: "Graphics Engineer"
 responsibilities: "Graphics pipeline for loading and rendering"
+category: graphics
 ---
 
 | |

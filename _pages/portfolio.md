@@ -15,34 +15,66 @@ toc_sticky: true
 .align-center { width: 40vw; max-width: 600px; min-width: 300px; }
 </style>
 
-{% assign professionals = site.portfolio | where: "professional", true | sort: "date" | reverse %}
-{% assign others = site.portfolio | where: "professional", false | sort: "date" | reverse %}
+{% assign professionals = site.portfolio | where: "category", "professional" | sort: "date" | reverse %}
+{% assign games        = site.portfolio | where: "category", "games"        | sort: "date" | reverse %}
+{% assign graphics     = site.portfolio | where: "category", "graphics"     | sort: "date" | reverse %}
+{% assign tools        = site.portfolio | where: "category", "tools"        | sort: "date" | reverse %}
 
 <h1 id="professional-projects" style="text-align: center;">Professional Projects</h1>
-{% for professional in professionals %}
+{% for entry in professionals %}
   <figure class="align-center">
-    {% assign bookmark = professional.title | replace: " ", "-" %}
-    <h2 id="{{bookmark}}"> {{professional.title}} </h2>
-    <a href="{{professional.permalink}}">
-      <img src="{{ site.url }}{{ site.baseurl }}{{professional.header.teaser}}" alt="{{professional.title}}">
+    {% assign bookmark = entry.title | replace: " ", "-" %}
+    <h2 id="{{bookmark}}"> {{entry.title}} </h2>
+    <a href="{{entry.permalink}}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{entry.header.teaser}}" alt="{{entry.title}}">
     </a>
-    <figcaption>{{professional.excerpt}}</figcaption>
-  </figure> 
+    <figcaption>{{entry.excerpt}}</figcaption>
+  </figure>
 {%endfor%}
 
 ***
 <br/><br/>
 
-<h1 id="other-projects" style="text-align: center;">Other Projects</h1>
-{% for other in others %}
+<h1 id="games-and-interactive" style="text-align: center;">Games &amp; Interactive</h1>
+{% for entry in games %}
   <figure class="align-center">
-    {% assign bookmark = other.title | replace: " ", "-" %}
-    <h2 id="{{bookmark}}"> {{other.title}} </h2>
-    <a href="{{other.permalink}}">
-      <img src="{{ site.url }}{{ site.baseurl }}{{other.header.teaser}}" alt="{{other.title}}">
+    {% assign bookmark = entry.title | replace: " ", "-" %}
+    <h2 id="{{bookmark}}"> {{entry.title}} </h2>
+    <a href="{{entry.permalink}}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{entry.header.teaser}}" alt="{{entry.title}}">
     </a>
-    <figcaption>{{other.excerpt}}</figcaption>
-  </figure> 
+    <figcaption>{{entry.excerpt}}</figcaption>
+  </figure>
+{%endfor%}
+
+***
+<br/><br/>
+
+<h1 id="graphics-and-engines" style="text-align: center;">Graphics &amp; Engines</h1>
+{% for entry in graphics %}
+  <figure class="align-center">
+    {% assign bookmark = entry.title | replace: " ", "-" %}
+    <h2 id="{{bookmark}}"> {{entry.title}} </h2>
+    <a href="{{entry.permalink}}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{entry.header.teaser}}" alt="{{entry.title}}">
+    </a>
+    <figcaption>{{entry.excerpt}}</figcaption>
+  </figure>
+{%endfor%}
+
+***
+<br/><br/>
+
+<h1 id="tools-and-backend" style="text-align: center;">Tools &amp; Backend</h1>
+{% for entry in tools %}
+  <figure class="align-center">
+    {% assign bookmark = entry.title | replace: " ", "-" %}
+    <h2 id="{{bookmark}}"> {{entry.title}} </h2>
+    <a href="{{entry.permalink}}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{entry.header.teaser}}" alt="{{entry.title}}">
+    </a>
+    <figcaption>{{entry.excerpt}}</figcaption>
+  </figure>
 {%endfor%}
 
 ***

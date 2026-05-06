@@ -13,6 +13,7 @@ platform: "Windows PC"
 skills: "C++, OpenGL, GLSL, Linear Algebra"
 role: "Graphics Engineer"
 responsibilities: "Implementing robust and flexible spatial algorithms"
+category: graphics
 ---
 
 | |

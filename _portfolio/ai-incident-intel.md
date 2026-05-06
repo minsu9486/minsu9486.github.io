@@ -11,6 +11,7 @@ platform: "Node.js / Docker Compose"
 skills: "Node.js, Apache Kafka, Cassandra 5, Google Gemini, GraphQL, Docker"
 role: "Software Engineer"
 responsibilities: "Architecture, Implementation"
+category: tools
 ---
 
 | |

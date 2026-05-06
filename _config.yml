@@ -332,7 +332,7 @@ defaults:
       layout: portfolio
       author_profile: false
       share: false
-      professional: false
+      category: games
       company: "N/A"
       engine: "N/A"
       platform: "N/A"

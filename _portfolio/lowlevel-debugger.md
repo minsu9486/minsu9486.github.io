@@ -12,6 +12,7 @@ platform: "Windows PC"
 skills: "C++"
 role: "Tool Engineer"
 responsibilities: "Implementing easy-interpolating debuggers"
+category: tools
 ---
 
 | |

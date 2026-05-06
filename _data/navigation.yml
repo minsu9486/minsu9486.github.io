@@ -21,14 +21,10 @@ portfolio:
         url: /portfolio/floating-fuzzy/
       - title: "JoJo's Bizarre Adventure"
         url: /portfolio/jojo/
-  - title: Others
+  - title: Games & Interactive
     children:
-      - title: "AI Incident Intelligence"
-        url: /portfolio/ai-incident-intel/
       - title: "VR Gesture Combo"
         url: /portfolio/vr-gesture-combo/
-      - title: "Movie Recommender"
-        url: /portfolio/aos-movie-reco/
       - title: "VR Mesh Cutting"
         url: /portfolio/vr-mesh-cutting/
       - title: "Hide and Seek"
@@ -37,13 +33,21 @@ portfolio:
         url: /portfolio/toy-tanks/
       - title: "Robo Cat, Multiplayer Game"
         url: /portfolio/robo-cat-multiplayer-game/
-      - title: "Low-level Debugger"
-        url: /portfolio/lowlevel-debugger/
+      - title: "Adaptation"
+        url: /portfolio/adaptation/
+  - title: Graphics & Engines
+    children:
       - title: "Spatial Algorithms in 3D"
         url: /portfolio/spatial-algorithms/
       - title: "Photorealistic Rendering"
         url: /portfolio/photorealistic-rendering/
-      - title: "Adaptation"
-        url: /portfolio/adaptation/
+  - title: Tools & Backend
+    children:
+      - title: "AI Incident Intelligence"
+        url: /portfolio/ai-incident-intel/
+      - title: "Movie Recommender"
+        url: /portfolio/aos-movie-reco/
+      - title: "Low-level Debugger"
+        url: /portfolio/lowlevel-debugger/
       - title: "Skeletal Animation Editor"
         url: /portfolio/blanc-animator/

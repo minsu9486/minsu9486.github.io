@@ -7,7 +7,7 @@ header:
   image: /assets/images/jojo_main_wide.png
   caption: "[YouTube Link](https://www.youtube.com/watch?v=ktEDtEFHqGQ)"
   teaser: /assets/images/jojo_icon.png
-professional: true
+category: professional
 company: "[Funigloo](http://www.funigloo.com/)"
 engine: "Cocos2d-x"
 platform: "Android & iOS Mobile"

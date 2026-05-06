@@ -12,6 +12,7 @@ platform: "Android Devices"
 skills: "TensorFlow, TensorFlow Recommenders, Python, AWS, Docker, Kotlin"
 role: "Software Engineer"
 responsibilities: "Recommender System, Serving Infra, Android Client"
+category: tools
 ---
 
 | |
