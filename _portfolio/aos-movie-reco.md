@@ -2,16 +2,16 @@
 title: "Movie Recommender"
 permalink: /portfolio/aos-movie-reco/
 date: 2021-4-1
-excerpt: "Kotlin Project with Movie Recommender"
+excerpt: "A TensorFlow Recommenders movie recommendation service with cold-start handling, Dockerized TF Serving on AWS, and a Kotlin/Android client."
 header:
   image: /assets/images/aMovReco_main_wide.png
   teaser: /assets/images/aMovReco_teaser.gif
 company: "Academic Project"
 engine: "N/A"
 platform: "Android Devices"
-skills: "Kotlin, AWS, Python"
-role: "Front-End Engineer"
-responsibilities: "Android Front-End & Recommendation System"
+skills: "TensorFlow, TensorFlow Recommenders, Python, AWS, Docker, Kotlin"
+role: "Software Engineer"
+responsibilities: "Recommender System, Serving Infra, Android Client"
 ---
 
 | |
@@ -19,12 +19,33 @@ responsibilities: "Android Front-End & Recommendation System"
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-## Features
- - All Front-End Part of Android Development using Kotlin
- - Recommender System using TensorFlow and Python
- - Serving Recommender System using AWS, Docker, automating a model training 
+## Overview
+A movie recommendation service built on **TensorFlow Recommenders**, trained on the MovieLens 100k ratings dataset and served via **TensorFlow Serving** in Docker on AWS. A Kotlin/Android client consumes the model's outputs through a thin REST surface. The pipeline includes an automated retraining loop so new ratings flow back into the deployed model artifact, and a popularity-based cold-start strategy handles users with no interaction history.
 
-### Android
+## Architecture
+<figure>
+	<img src="/assets/images/aMovReco_main_wide.png">
+</figure>
+
+The system splits along the standard offline / online boundary. **Offline:** the MovieLens ratings dataset feeds a TFRS trainer that produces a SavedModel artifact; retraining is automated so the artifact can be refreshed without code changes. **Online:** TF Serving loads the artifact in a Docker container on AWS, fronted by a small backend that serves the Android client. The client receives `(movie_id, title, genres)` tuples and resolves posters separately via Bing Image Search — keeping the recommendation path independent of the image-rendering path.
+
+## Key Features
+ - Two-stage **retrieval-then-ranking** recommender built with TensorFlow Recommenders on MovieLens 100k ratings
+ - **Cold-start handling** for new users via a popularity-based seed list with randomized ordering, so no two new users see an identical opener
+ - **TF Serving in Docker** as the inference layer, fronted by an AWS-hosted backend — model artifact is the deployable unit
+ - **Automated retraining** pipeline so newly-collected ratings refresh the served model without manual intervention
+ - Kotlin/Android client with skeleton-UI image loading and persistent poster URL caching
+
+## Implementation Highlights
+ - **Cold-start strategy:** chose randomized popularity ordering over real-time trending recomputation. Both options solve "new users seeing identical lists" — randomization is simpler, requires no streaming state, and is indistinguishable from trending at this dataset's scale (~100k ratings, hundreds of users).
+<figure>
+  <img src="/assets/images/aMovReco_rs_coldStart_pop.png">
+</figure>
+ - **Decoupled poster resolution:** the recommender response carries only `(movie_id, title, genres)`. The client resolves posters via Bing Image Search and caches the URL plus accent color on the `CardMovie` model so repeat renders skip the network entirely (`homescreen/CardMovie.kt`, `listscreen/Leaderboard.kt`). A Gemini-style "single response, all assets inline" path was rejected to keep the inference response cheap and the image-loading concern out of TF Serving.
+ - **Server-side pagination** on `/likedMovies` via `start`/`end` range parameters keeps client memory bounded as the user's liked-movies grid grows (`Leaderboard.kt`).
+ - **TF Serving over a custom Flask wrapper:** retraining becomes a swap-the-artifact operation rather than a code redeploy, and the gRPC/REST contract is fixed by the model signature.
+
+### Client (Android)
 
 <figure class="third">
 	<img src="/assets/images/aMovReco_aos_login.gif">
@@ -32,42 +53,21 @@ responsibilities: "Android Front-End & Recommendation System"
 	<img src="/assets/images/aMovReco_aos_ui.gif">
 </figure>
 
-- **Login System**
-  - The fragments are managing under the principles of navigation, tracking each stack.
-  - Client and server can handle all cases of failed login attempts sucha as blank data, miss-matched passwords, and wrong ID or password.
+- **Login & navigation stack** — fragments managed via Android Navigation Component, with client/server validation covering blank fields, mismatched passwords, and unknown users.
+- **Skeleton-UI image loading** — three-stage render (title placeholder → accent-color background → full poster) gives users continuous visual feedback while Bing Image Search resolves and Picasso downloads/caches the poster.
+- **Card swiping + grid liked-movies** — recommendations land on a swipeable card stack; confirmed likes appear in a paginated grid view.
 
-- **Image Loading as Skeleton UI**
-  - You can see the progress of loading images like firstly as the following order: title with an empty placeholder, colored background, a full image. This type of design is called Skeleton UI. It visually communicates with a user by showing the process of loading. Back in the day, there were only a loading spinner without any other information.
-  - Bing Search API is used to search images based on the given movie title from the server
-  - Picasso is used to download the found image URLs and to cache the downloaded images.
-
-
-- **Card Swiping & Grid Layout**
-  - A set of recommended movies will be in the card-swiping page after a valid login.
-  - In the grid layout page, It shows a list of liked movies the user confirmed.
-
-
-### Cold Start Problem
-
-In eCommerce, there are two distinct categories of cold start: product cold start and user cold start. In the case of this project, no user history causes a **user cold start**. The system does not know the personal preferences of a new user, but we have nearly over 100,000 rating data from hundreds of users. So, I applied a **popularity-based strategy** using the already existing user data.
-
-<figure>
-  <img src="/assets/images/aMovReco_rs_coldStart_pop.png">
-</figure>
-
-For new users, the above list is what they will be recommended at first. Another problem was the users will get the same movies in the same order. There were two options to prevent this problem. One is to keep generate a list of trending movies in real-time. This method uses the recorded time data which is on the fourth column of the user data. Another one is just to randomize the order. Due to the latter is much simpler, we chose to randomize all data.
-
-## Used APIs & Libraries
- - Bing Image Search API: It allows to scour the web for images such as thumbnails, website info, metadata, and etc.
- - Picasso: A powerful image downloading and caching library for Android
- - Fuel: The easiest HTTP networking library for Kotlin/Android
- - Card Stack View: Tinder like swipeable card view for Android
+## Tech Stack
+ - **Modeling:** TensorFlow, TensorFlow Recommenders, Python
+ - **Serving:** TensorFlow Serving, Docker, AWS
+ - **Data:** MovieLens 100k ratings dataset
+ - **Client:** Kotlin, Android Navigation Component, Picasso, Fuel
+ - **External APIs:** Bing Image Search (poster lookup)
 
 ## References
+ - [Dataset: MovieLens](https://grouplens.org/datasets/movielens/)
+ - [Introducing TensorFlow Recommenders](https://blog.tensorflow.org/2020/09/introducing-tensorflow-recommenders.html)
+ - [Prototyping a Recommender System](https://towardsdatascience.com/getting-started-with-recommender-systems-and-tensorrec-8f50a9943eef)
+ - [TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)
  - [Android Architecture Components Samples](https://github.com/android/architecture-components-samples)
  - [Android Advanced Navigation](https://github.com/android/architecture-components-samples/tree/master/NavigationAdvancedSample)
- - [Dataset: MovieLens](https://grouplens.org/datasets/movielens/)
- - [Prototyping a Recommender System](https://towardsdatascience.com/getting-started-with-recommender-systems-and-tensorrec-8f50a9943eef)
- - [Introducing TensorFlow Recommenders](https://blog.tensorflow.org/2020/09/introducing-tensorflow-recommenders.html)
- - [TensorFlow Serving with Docker](https://www.tensorflow.org/tfx/serving/docker)
- 
