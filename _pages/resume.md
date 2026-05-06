@@ -9,7 +9,8 @@ toc: true
 toc_sticky: true
 ---
 
-Software Engineer · Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-kang/) · [Portfolio](/portfolio/)
+# Software Engineer
+Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-kang/) · [Portfolio](/portfolio/)
 
 ## Skills
 
@@ -18,7 +19,8 @@ Software Engineer · Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-
 
 ## Experience
 
-### Software Engineer — BFG Entertainment Inc. *(Nov 2025 – Present)*
+### Software Engineer — BFG Entertainment Inc.
+*Nov 2025 – Present*
 
 - Executing migration from BrainCloud (JS) to Nakama (Go), reducing backend costs by ~75%
 - Optimized startup time 73% (7.8s → 2.1s) via async audio loading and deferred SDK init
@@ -27,7 +29,8 @@ Software Engineer · Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-
 - Modernized a core library, adding Apple Silicon and ARM64 support and migrating GNU to GCC
 - Supported infra migration through cross-team testing, client/server diagnostics, error analysis
 
-### Software Engineer — Big Fish Games *(Sep 2021 – Oct 2025)*
+### Software Engineer — Big Fish Games
+*Sep 2021 – Oct 2025*
 
 - Developed cross-platform features (C++, JavaScript) for Android and iOS (+ Web for testing)
 - Reduced Firebase Realtime Database usage with a 22.8% cost reduction
@@ -40,7 +43,8 @@ Software Engineer · Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-
 - Implemented a level design tool using WPF, significantly reducing manual design time
 - Prototyped the frontend/backend of a web store using React, GraphQL, Adobe Commerce
 
-### Client Engineer — Funigloo *(Nov 2015 – Dec 2016)*
+### Client Engineer — Funigloo
+*Nov 2015 – Dec 2016*
 
 - Developed a compatibility pipeline between Java and C++
 - Created a multi-language support system in C++
@@ -49,7 +53,8 @@ Software Engineer · Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-
 
 ## Independent Projects
 
-### AI Incident Platform — *Kafka, Cassandra, S3, GraphQL, Gemini*
+### AI Incident Platform
+*Kafka, Cassandra, S3, GraphQL, Gemini*
 
 - Built event-sourced + CQRS platform: API publishes to Kafka, consumers project to Cassandra
 - Layered effectively-once over at-least-once via LWT dedup, retry-with-backoff, and DLQ
@@ -57,13 +62,15 @@ Software Engineer · Seattle, WA · [LinkedIn](https://www.linkedin.com/in/mean-
 - Instrumented with pino structured logs and Prometheus end-to-end + consumer-lag metrics
 - Built similar-incident search via Gemini embeddings in Cassandra VECTOR with SAI ANN index
 
-### Movie Recommender with AWS — *Kotlin, TensorFlow, Python, AWS, Docker*
+### Movie Recommender with AWS
+*Kotlin, TensorFlow, Python, AWS, Docker*
 
 - Trained TensorFlow Recommenders on MovieLens 100K, served via Docker on AWS EC2
 - Built ratings DB → model pipeline with hourly automated retraining and cold-start fallback
 - Built Kotlin Android client: swipe-to-rate UI, REST (Fuel), dynamic poster loading (Bing + Picasso)
 
-### Real-Time Multiplayer Backend — *C++, AWS EC2, Node.js, MongoDB, Redis*
+### Real-Time Multiplayer Backend
+*C++, AWS EC2, Node.js, MongoDB, Redis*
 
 - Split auth issuer (Node) from validator (C++) — no network callback per connect
 - Chose dirty-flag delta sync over full-state snapshots; cut state-update bandwidth ~75%
