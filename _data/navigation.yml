@@ -23,6 +23,8 @@ portfolio:
         url: /portfolio/jojo/
   - title: Others
     children:
+      - title: "AI Incident Intelligence"
+        url: /portfolio/ai-incident-intel/
       - title: "VR Gesture Combo"
         url: /portfolio/vr-gesture-combo/
       - title: "Movie Recommender"
