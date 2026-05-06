@@ -20,7 +20,7 @@ responsibilities: "Gameplay, UI, & Game Design"
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}	
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-## Assigned Tasks
+## Focus Areas
  - Implemented a randomized obstacle generator: color, size, speed, and sound pitch
  - Developed an automatic level controller based on a player’s attribute
  - Cooperated in designing the game and the level of difficulty

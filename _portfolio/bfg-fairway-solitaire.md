@@ -21,7 +21,7 @@ responsibilities: "Android, Gameplay, Server, and etc."
 | **Platform**<br>&nbsp;&nbsp;&nbsp;{{page.platform}}							|||**Skills**<br>&nbsp;&nbsp;&nbsp;{{page.skills}}
 | **Role**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.role}}</span>	|||**Responsibilities**<br>&nbsp;&nbsp;&nbsp;<span style="color:red">{{page.responsibilities}}</span>
 
-## Assigned Tasks
+## Focus Areas
  - Implementing new game events and maintaining this cross-platform project for Android, Fire OS, and iOS.
  - Driving cross-cutting initiatives in performance, build tooling, and backend cost.
  - Maintaining/Updating 3rd-party SDKs for Android and Fire OS
