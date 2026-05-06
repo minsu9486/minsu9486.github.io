@@ -34,7 +34,10 @@ feature_row_right:
 Hi! I’m Minsu, a curious software engineer drawn to the parts of computing where systems and people meet in real time. Whether the surface is a VR headset, a phone screen, a custom engine viewport, or a server log, I like building the layers underneath: the rendering, the input, the physics, the protocol, the tool that makes the next thing possible.
 {: style="text-align: justify;"}
   
-Across personal and shipped work I’ve built real‑time rendering pipelines in OpenGL/GLSL, hand‑gesture and mesh‑cutting interactions for VR, custom C++ engines with their own profilers and memory debuggers, computational‑geometry and game‑AI demos, cross‑platform mobile games on Unity and Cocos2d, and the REST backends and live‑service plumbing behind them. C++, C#, Java, JavaScript, Kotlin, Python. The language matters less than the system, and the system matters less than the curiosity that pulls me into the next one.
+Across personal and shipped work I’ve built real‑time rendering pipelines in OpenGL/GLSL, hand‑gesture and mesh‑cutting interactions for VR, custom C++ engines with their own profilers and memory debuggers, computational‑geometry and game‑AI demos, cross‑platform mobile games on Unity and Cocos2d, and the REST backends and live‑service plumbing behind them.
+{: style="text-align: justify;"}
+
+C++, C#, Java, JavaScript, Kotlin, Python... The language matters less than the system, and the system matters less than the curiosity that pulls me into the next one.
 {: style="text-align: justify;"}
 
 {% include feature_row id="separate_line" %}
