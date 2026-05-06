@@ -34,7 +34,7 @@ responsibilities: "Multi-gamepad input system & object motion"
 
 <figure class="half">
 	<img src="/assets/images/toyTanks_tank_decoupling.gif">
-	<img src="/assets/images/toyTanks_tank_motion.gif">
+	<video src="/assets/videos/toyTanks_tank_motion.mp4" autoplay loop muted playsinline></video>
 </figure>
 
 ## Used External Libraries

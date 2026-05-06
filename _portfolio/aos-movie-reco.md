@@ -50,7 +50,7 @@ The system splits along the standard offline / online boundary. **Offline:** the
 <figure class="third">
 	<img src="/assets/images/aMovReco_aos_login.gif">
   <img src="/assets/images/aMovReco_aos_imgLoad.gif">
-	<img src="/assets/images/aMovReco_aos_ui.gif">
+	<video src="/assets/videos/aMovReco_aos_ui.mp4" autoplay loop muted playsinline></video>
 </figure>
 
 - **Login & navigation stack** — fragments managed via Android Navigation Component, with client/server validation covering blank fields, mismatched passwords, and unknown users.

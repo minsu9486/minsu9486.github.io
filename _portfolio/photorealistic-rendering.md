@@ -57,7 +57,7 @@ responsibilities: "Graphics pipeline for loading and rendering"
 </figure>
 
 <figure class="half">
-	<img src="/assets/images/pthotoRen_3_env_reflec_cub.gif">
+	<video src="/assets/videos/pthotoRen_3_env_reflec_cub.mp4" autoplay loop muted playsinline></video>
 	<img src="/assets/images/pthotoRen_3_env_combi_4spheres.gif">
 	<figcaption>1) A cup with environment map. &emsp;&emsp;&emsp;&emsp; 2) A complex object with red, blue, green lights.</figcaption>
 </figure>

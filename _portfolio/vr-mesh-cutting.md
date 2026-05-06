@@ -5,7 +5,7 @@ date: 2020-10-15
 excerpt: "This is a tech demo in VR environment where objects can be cut as the user does."
 header:
   image: /assets/images/vrMeshCut_main_wide.png
-  teaser: /assets/images/vrMeshCut_play_1.gif
+  teaser: /assets/images/vrMeshCut_play_1_thumb.jpg
 company: "Academic Project"
 engine: "Unity"
 platform: "Windows PC, HTC Vive"
@@ -21,8 +21,8 @@ responsibilities: "Mesh Cutting, Sawing Behavior"
 
 ## In-Game Videos
 <figure class="half">
-	<img src="/assets/images/vrMeshCut_play_1.gif">
-	<img src="/assets/images/vrMeshCut_play_2.gif">
+	<video src="/assets/videos/vrMeshCut_play_1.mp4" autoplay loop muted playsinline></video>
+	<video src="/assets/videos/vrMeshCut_play_2.mp4" autoplay loop muted playsinline></video>
     <figcaption>Mesh cutting without a blade width</figcaption>
 </figure>
 

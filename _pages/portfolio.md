@@ -24,7 +24,7 @@ toc_sticky: true
     {% assign bookmark = professional.title | replace: " ", "-" %}
     <h2 id="{{bookmark}}"> {{professional.title}} </h2>
     <a href="{{professional.permalink}}">
-      <img src="{{ site.url }}{{ site.baseurl }}{{professional.header.teaser}}" alt="">
+      <img src="{{ site.url }}{{ site.baseurl }}{{professional.header.teaser}}" alt="{{professional.title}}">
     </a>
     <figcaption>{{professional.excerpt}}</figcaption>
   </figure> 
@@ -33,13 +33,13 @@ toc_sticky: true
 ***
 <br/><br/>
 
-<h1 id="other-projects" style="text-align: center;">Other Proejcts</h1>
+<h1 id="other-projects" style="text-align: center;">Other Projects</h1>
 {% for other in others %}
   <figure class="align-center">
     {% assign bookmark = other.title | replace: " ", "-" %}
     <h2 id="{{bookmark}}"> {{other.title}} </h2>
     <a href="{{other.permalink}}">
-      <img src="{{ site.url }}{{ site.baseurl }}{{other.header.teaser}}" alt="">
+      <img src="{{ site.url }}{{ site.baseurl }}{{other.header.teaser}}" alt="{{other.title}}">
     </a>
     <figcaption>{{other.excerpt}}</figcaption>
   </figure> 
