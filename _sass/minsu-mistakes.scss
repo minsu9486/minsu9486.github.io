@@ -1,3 +1,23 @@
 /* My Blue Theme */
 $blue-in-white: #00539C !default; // Princess Blue
 $blue-in-black: #00bfff !default; // DeepSkyBlue
+
+/* Treat <video> children of <figure> like <img> for sizing. */
+figure {
+  video {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: $border-radius;
+  }
+
+  &.half > video {
+    @include breakpoint($small) {
+      width: calc(50% - 0.5em);
+    }
+  }
+  &.third > video {
+    @include breakpoint($small) {
+      width: calc(33.3333% - 0.5em);
+    }
+  }
+}
